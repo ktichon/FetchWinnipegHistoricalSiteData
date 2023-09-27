@@ -7,6 +7,10 @@ import re
 import datetime
 import requests
 from bs4 import BeautifulSoup
+from os.path import abspath, dirname, join
+import calendar
+import time
+
 
 
 class ManitobaHistoricalScrapper():
@@ -16,6 +20,7 @@ class ManitobaHistoricalScrapper():
   urlMuni = "&m-name="
   urlType = "&st-name="
   urlEND = "&submit=Search"
+  baseImageUrl = "http://www.mhs.mb.ca/docs/sites/"
 
   def __init__(self):
     try:
@@ -93,10 +98,13 @@ class ManitobaHistoricalScrapper():
       soup = BeautifulSoup(page.content, "html.parser")
       relevantData = soup.find_all("table")[0].contents[4]
 
-
+      siteDescription = ""
+      siteLocation = ""
+      sitePictures = []
+      siteSources = []
       #Getting site description
       try:
-        siteDescription = ""
+
 
         firstP = relevantData.find_all("p")[0]
         if "Link to:" not in firstP.text:
@@ -118,6 +126,75 @@ class ManitobaHistoricalScrapper():
             self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Description: %s", error)
 
       #Getting site pictures
+      picBlock = relevantData.find_all("blockquote")[0]
+      picRelavant = picBlock.table.tr.td
+
+      picLink = None
+      picName = None
+
+      for row in picRelavant.contents:
+         try:
+          #Might as well get the location while I'm at it
+          if "Site Coordinates (lat/long):" in row.text:
+              siteLocation = row.a.text
+              break
+
+
+          img = row.next_element
+
+          if img.name == 'img':
+              picLink = img['src']
+              try:
+                 img_data = requests.get(self.baseImageUrl + picLink).content
+
+                 #get image name with unique timestamp
+                 picName = picLink[picLink.find('/')+1 : picLink.find('.')] + "_" + str(calendar.timegm(time.gmtime())) + "." + picLink.split(".")[1]
+                 imagePath = join(dirname(abspath(__file__)), "Site_Images", picName)
+                 with open(imagePath, 'wb') as handler:
+                      handler.write(img_data)
+              except Exception as error:
+                self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Download Image: %s", error)
+          elif picLink != None:
+             sitePictures.append(dict(link = picLink, name = picName, info = row.text))
+             picLink = None
+             picName = None
+
+
+         except Exception as error:
+            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Image: %s", error)
+
+
+      #Getting Site Sources
+
+      #Fetch the H2 tag that signifys the sources
+      sourceStart = soup.find(id="sources")
+
+      currentSource = sourceStart.find_next_sibling('p')
+
+      for loop in range(20):
+          try:
+            #If end of sources, exit loop
+            if "This page was" in currentSource.text and "prepared by" in currentSource.text:
+              break
+            siteSources.append(currentSource.text)
+            #Get next source
+            currentSource = currentSource.find_next_sibling('p')
+          except Exception as error:
+            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Sources: %s", error)
+
+
+
+      self.allSites.append(dict(site_name = siteName, type = siteType, municipality =  siteMuni, address = siteAddress, location = siteLocation, description = siteDescription, picture  = sitePictures, sources = siteSources, url = siteURL))
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -140,6 +217,7 @@ if __name__ == "__main__":
     #print(siteScraper.allTypes)
     siteScraper.get_site_links()
     siteScraper.fetch_site_info("Brodie School No. 1854", "http://www.mhs.mb.ca/docs/sites/brodieschool.shtml", "Alexander", "Stead", "Building")
+    print(siteScraper.allSites)
 
 
 
