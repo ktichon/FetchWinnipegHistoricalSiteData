@@ -1,6 +1,10 @@
 
+from datetime import datetime
 import logging
 from dbcm import DBCM
+import os
+import glob
+from os.path import abspath, dirname, join
 
 class DBOperations:
     """Store and retrive site data"""
@@ -16,8 +20,8 @@ class DBOperations:
         """Initializes the database"""
         with DBCM(self.database) as cursor:
             try:
-                cursor.execute("""create table if not exists historicalSite
-                (site_id integer primary key autoincrement not null,
+                cursor.execute("""create table if not exists winnipegHistoricalSite
+                (id integer primary key autoincrement not null,
                 name text,
                 streetName text,
                 streetNumber text,
@@ -28,22 +32,37 @@ class DBOperations:
                 longitude real,
                 city text,
                 province text,
+                import_date text
+                );""")
+
+                cursor.execute("""create table if not exists manitobaHistoricalSite
+                (id integer primary key autoincrement not null,
+                name text,
+                address text,
+                latitude real,
+                longitude real,
+                province text,
                 municipality text,
                 description text,
-                type text
+                type text,
+                site_url text,
+                import_date text
                 );""")
 
                 cursor.execute("""create table if not exists sitePhotos
                 (photo_id integer primary key autoincrement not null,
                 site_id int,
-                photo BLOB,
-                description text,
-                date text
+                photo_name text,
+                photo_url text,
+                info text,
+                import_date text
                 );""")
+
                 cursor.execute("""create table if not exists siteSource
                 (source_id integer primary key autoincrement not null,
                 site_id int,
                 info text,
+                import_date text
                 );""")
             except Exception as error:
                 self.logger.error('DBOperations/initialize_db: %s', error)
@@ -52,43 +71,81 @@ class DBOperations:
       """Removes all data from the db"""
       with DBCM(self.database) as cursor:
           try:
-              cursor.execute("""DELETE FROM historicalSite;""")
+              cursor.execute("""DELETE FROM winnipegHistoricalSite;""")
+              cursor.execute("""DELETE FROM manitobaHistoricalSite;""")
+              cursor.execute("""DELETE FROM sitePhotos;""")
+              cursor.execute("""DELETE FROM siteSource;""")
+              filepath = join(dirname(abspath(__file__)), "Site_Images")
+              files = glob.glob(filepath)
+              for f in files:
+                os.remove(f)
+
           except Exception as error:
               self.logger.error('DBOperations/purge_data: %s', error)
 
 
 
     def winnipeg_api_save_data(self, historical_sites_list):
-        """Saves a dictionary of historical sites  values to the database"""
+        """Saves a dictionary of historical sites values from winnipeg open api to the database"""
         try:
-            insert_sql =  """INSERT OR IGNORE into historicalSite
-            (name, streetName, streetNumber, constructionDate, shortUrl, longUrl, latitude, longitude,  city, province, municipality, description, type)
-            values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"""
+            insert_sql =  """INSERT OR IGNORE into winnipegHistoricalSite
+            (name, streetName, streetNumber, constructionDate, shortUrl, longUrl, latitude, longitude,  city, province, import_date)
+            values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"""
+
 
 
 
             with DBCM(self.database) as cursor:
                 try:
-                    before_insert = cursor.execute("SELECT COUNT() FROM historicalSite").fetchone()[0]
+                    before_insert = cursor.execute("SELECT COUNT() FROM winnipegHistoricalSite").fetchone()[0]
                     cursor.executemany(insert_sql, historical_sites_list)
-                    after_insert = cursor.execute("SELECT COUNT() FROM historicalSite").fetchone()[0]
+                    after_insert = cursor.execute("SELECT COUNT() FROM winnipegHistoricalSite").fetchone()[0]
                     print("Inserted " + str(after_insert - before_insert) + " new rows")
                 except Exception as error:
-                    self.logger.error('DBOperations/save_data/Insert Into database: %s', error)
+                    self.logger.error('DBOperations/winnipeg_api_save_data/Insert Into database: %s', error)
         except Exception as error:
             self.logger.errorint('DBOperations/save_data: %s', error)
 
-    def manitoba_historical_website_save_data(self, new_historical_site):
-        """Saves the data from the Manitoba Historical Society one at a time"""
+    def manitoba_historical_website_save_data(self, historical_sites_list):
+        """Saves the data from the Manitoba Historical Society"""
         try:
-            sql = """SELECT TOP 1 site_id FROM historicalSite WHERE streetName = ? AND streetNumber = ?"""
-            site_id = None
-            with DBCM(self.database) as cursor:
-                try:
-                    site_id = cursor.execute(sql, (new_historical_site["street_name"],new_historical_site["street_number"] )).fetchone
+            #sql = """SELECT TOP 1 site_id FROM historicalSite WHERE streetName = ? AND streetNumber = ?"""
 
-                except Exception as error:
-                    self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database: %s', error)
+            insert_site_sql =  """INSERT OR IGNORE into manitobaHistoricalSite
+            (name, address, latitude, longitude, province, municipality, description, type, site_url, import_date)
+            values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"""
+
+            insert_photo_sql =  """INSERT OR IGNORE into sitePhotos
+            (site_id, photo_name, photo_url, info, import_date)
+            values (?, ?, ?, ?, ?)"""
+
+            insert_source_sql =  """INSERT OR IGNORE into siteSource
+            (site_id, info, import_date)
+            values (?, ?, ?)"""
+
+            with DBCM(self.database) as cursor:
+                for newSite in historical_sites_list:
+                    try:
+                        cursor.execute(insert_site_sql, (newSite["site_name"], newSite["address"], newSite["latitude"], newSite["longitude"] , "MB" , newSite["municipality"], newSite["description"] , newSite["type"], newSite["url"] , datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
+                        site_id = cursor.lastrowid
+
+                        for pic in newSite["pictures"]:
+                            try:
+                                cursor.execute(insert_photo_sql, (site_id, pic["name"], pic["link"], pic["info"], datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
+                            except Exception as error:
+                                self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database/Save Picture: %s', error)
+
+                        for source in newSite["sources"]:
+                            try:
+                                cursor.execute(insert_source_sql, (site_id, source["info"], datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
+                            except Exception as error:
+                                self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database/Save Source: %s', error)
+
+
+
+
+                    except Exception as error:
+                        self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database: %s', error)
 
 
 

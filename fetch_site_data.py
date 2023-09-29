@@ -1,6 +1,7 @@
 import urllib.request, json
 import logging
 from database_operations import DBOperations
+from datetime import datetime
 
 class FetchSiteDate:
     """Class that fetchs data from various sources for my app"""
@@ -21,7 +22,7 @@ class FetchSiteDate:
             for value in self.jsonDataDictionary:
                 """Name, street name, street number, constructed date, short url, long url, latitude, longitude, city, provance """
                 try:
-                    processedData.append((self.ifInValue("historical_name", value), self.ifInValue("street_name", value), self.ifInValue("street_number", value), self.ifInValue("construction_date", value), self.ifInValue("short_report_url", value), self.ifInValue("long_report_url", value), self.ifInValue("latitude", self.ifInValue("location", value)), self.ifInValue("longitude", self.ifInValue("location", value)),  "Winnipeg", "MB",))
+                    processedData.append((self.ifInValue("historical_name", value), self.ifInValue("street_name", value), self.ifInValue("street_number", value), self.ifInValue("construction_date", value), self.ifInValue("short_report_url", value), self.ifInValue("long_report_url", value), self.ifInValue("latitude", self.ifInValue("location", value)), self.ifInValue("longitude", self.ifInValue("location", value)),  "Winnipeg", "MB", datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
                 except Exception as error:
                     self.logger.error("fetch_from_winnipeg_api/append data to list %s", error)
         except Exception as error:

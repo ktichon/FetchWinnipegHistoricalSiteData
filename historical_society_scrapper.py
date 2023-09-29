@@ -11,6 +11,8 @@ from os.path import abspath, dirname, join
 import calendar
 import time
 
+from database_operations import DBOperations
+
 
 
 class ManitobaHistoricalScrapper():
@@ -150,11 +152,11 @@ class ManitobaHistoricalScrapper():
                  #get image name with unique timestamp
                  picName = picLink[picLink.find('/')+1 : picLink.find('.')] + "_" + str(calendar.timegm(time.gmtime())) + "." + picLink.split(".")[1]
                  imagePath = join(dirname(abspath(__file__)), "Site_Images", picName)
-                 with open(imagePath, 'wb') as handler:
-                      handler.write(img_data)
+                 #with open(imagePath, 'wb') as handler:
+                      #handler.write(img_data)
               except Exception as error:
                 self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Download Image: %s", error)
-          elif picLink != None:
+          elif picLink != None and row.text != '\n':
              sitePictures.append(dict(link = picLink, name = picName, info = row.text))
              picLink = None
              picName = None
@@ -176,28 +178,14 @@ class ManitobaHistoricalScrapper():
             #If end of sources, exit loop
             if "This page was" in currentSource.text and "prepared by" in currentSource.text:
               break
-            siteSources.append(currentSource.text)
+            siteSources.append(dict(info = currentSource.text))
             #Get next source
             currentSource = currentSource.find_next_sibling('p')
           except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Sources: %s", error)
-
-
-
-      self.allSites.append(dict(site_name = siteName, type = siteType, municipality =  siteMuni, address = siteAddress, location = siteLocation, description = siteDescription, picture  = sitePictures, sources = siteSources, url = siteURL))
-
-
-
-
-
-
-
-
-
-
-
-
-
+      latitude = float(siteLocation.split(', ')[0].replace("N", "").replace("S","-"))
+      longitude = float(siteLocation.split(', ')[1].replace("W", "-").replace("E", ""))
+      self.allSites.append(dict(site_name = siteName, type = siteType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
     except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/fetch_site_info: %s", error)
 
@@ -217,7 +205,16 @@ if __name__ == "__main__":
     #print(siteScraper.allTypes)
     siteScraper.get_site_links()
     siteScraper.fetch_site_info("Brodie School No. 1854", "http://www.mhs.mb.ca/docs/sites/brodieschool.shtml", "Alexander", "Stead", "Building")
-    print(siteScraper.allSites)
+    print(siteScraper.allSites[0]["site_name"])
+    for pic in siteScraper.allSites[0]["pictures"]:
+       print(pic["name"])
+       print(pic["info"])
+       print()
+
+    database = DBOperations()
+    database.initialize_db()
+    database.purge_data()
+    database.manitoba_historical_website_save_data(siteScraper.allSites)
 
 
 
