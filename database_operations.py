@@ -75,10 +75,6 @@ class DBOperations:
               cursor.execute("""DELETE FROM manitobaHistoricalSite;""")
               cursor.execute("""DELETE FROM sitePhotos;""")
               cursor.execute("""DELETE FROM siteSource;""")
-              filepath = join(dirname(abspath(__file__)), "Site_Images")
-              files = glob.glob(filepath)
-              for f in files:
-                os.remove(f)
 
           except Exception as error:
               self.logger.error('DBOperations/purge_data: %s', error)
@@ -124,6 +120,8 @@ class DBOperations:
             values (?, ?, ?)"""
 
             with DBCM(self.database) as cursor:
+                print("Insert data from Manitoba Historical Society to database")
+                before_insert = cursor.execute("SELECT COUNT() FROM manitobaHistoricalSite").fetchone()[0]
                 for newSite in historical_sites_list:
                     try:
                         cursor.execute(insert_site_sql, (newSite["site_name"], newSite["address"], newSite["latitude"], newSite["longitude"] , "MB" , newSite["municipality"], newSite["description"] , newSite["type"], newSite["url"] , datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
@@ -143,7 +141,8 @@ class DBOperations:
 
 
 
-
+                        after_insert = cursor.execute("SELECT COUNT() FROM manitobaHistoricalSite").fetchone()[0]
+                        print("Inserted " + str(after_insert - before_insert) + " new rows into manitobaHistoricalSite")
                     except Exception as error:
                         self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database: %s', error)
 

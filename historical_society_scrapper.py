@@ -152,8 +152,8 @@ class ManitobaHistoricalScrapper():
                  #get image name with unique timestamp
                  picName = picLink[picLink.find('/')+1 : picLink.find('.')] + "_" + str(calendar.timegm(time.gmtime())) + "." + picLink.split(".")[1]
                  imagePath = join(dirname(abspath(__file__)), "Site_Images", picName)
-                 #with open(imagePath, 'wb') as handler:
-                      #handler.write(img_data)
+                 with open(imagePath, 'wb') as handler:
+                      handler.write(img_data)
               except Exception as error:
                 self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Download Image: %s", error)
           elif picLink != None and row.text != '\n':
