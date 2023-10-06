@@ -59,6 +59,21 @@ class ManitobaHistoricalScrapper():
       except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/get_all_varibles: %s", error)
 
+  def check_if_duplicate_site(self, siteURL, siteType):
+    """Checks if the site has already been processed. Reason being a site with multiple types would be added twice. This way, it will instead add the new type to the existing entry in  allSites"""
+    duplicate = False
+    try:
+      for index in range(len(self.allSites)):
+         if self.allSites[index]["url"] == siteURL:
+            duplicate = True
+            self.allSites[index]["types"].append(siteType)
+            break
+
+    except Exception as error:
+            self.logger.error("ManitobaHistoricalScrapper/check_if_duplicate_site %s", error)
+    return duplicate
+
+
   def get_site_links(self):
     """Gets all the links for the site"""
     #for muni in self.allMunicipality:
