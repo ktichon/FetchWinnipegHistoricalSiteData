@@ -1,0 +1,23 @@
+2023-10-06 09:21:40,356 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 09:21:49,475 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/walterwhyteschool.shtml
+2023-10-06 09:21:55,613 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/walterwhyteschool.shtml
+2023-10-06 09:29:45,407 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 09:30:45,625 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/walterwhyteschool.shtml
+2023-10-06 09:30:58,641 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 09:31:48,776 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/walterwhyteschool.shtml
+2023-10-06 09:32:01,863 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 09:41:14,543 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 09:42:46,786 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 09:55:09,811 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 09:56:30,011 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 09:59:27,916 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 10:00:43,443 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 10:01:54,133 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 10:02:25,647 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 10:03:02,213 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 10:03:51,987 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 10:04:25,838 - main - INFO - Application Historical Society Scrapper Started

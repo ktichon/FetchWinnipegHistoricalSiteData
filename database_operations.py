@@ -44,7 +44,6 @@ class DBOperations:
                 province text,
                 municipality text,
                 description text,
-                type text,
                 site_url text,
                 import_date text
                 );""")
@@ -62,6 +61,13 @@ class DBOperations:
                 (source_id integer primary key autoincrement not null,
                 site_id int,
                 info text,
+                import_date text
+                );""")
+
+                cursor.execute("""create table if not exists siteType
+                (siteType_id integer primary key autoincrement not null,
+                site_id int,
+                type text,
                 import_date text
                 );""")
             except Exception as error:
@@ -142,9 +148,10 @@ class DBOperations:
 
 
                         after_insert = cursor.execute("SELECT COUNT() FROM manitobaHistoricalSite").fetchone()[0]
-                        print("Inserted " + str(after_insert - before_insert) + " new rows into manitobaHistoricalSite")
+
                     except Exception as error:
                         self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database: %s', error)
+                print("Inserted " + str(after_insert - before_insert) + " new rows into manitobaHistoricalSite")
 
 
 

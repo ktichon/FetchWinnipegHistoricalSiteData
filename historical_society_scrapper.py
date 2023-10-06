@@ -3,6 +3,7 @@ Scrapes weather data from climate.weather.gc.ca website.
 """
 from html.parser import HTMLParser
 import logging
+import logging.handlers
 import re
 import datetime
 import requests
@@ -22,7 +23,7 @@ class ManitobaHistoricalScrapper():
   urlMuni = "&m-name="
   urlType = "&st-name="
   urlEND = "&submit=Search"
-  baseImageUrl = "http://www.mhs.mb.ca/docs/sites/"
+  baseImageUrl = "http://www.mhs.mb.ca/docs/sites/images/"
 
   def __init__(self):
     try:
@@ -79,9 +80,10 @@ class ManitobaHistoricalScrapper():
             siteAddress = row.contents[2].text
             """ print(siteName + ", " + siteMuni + ", " + siteAddress + ", " + siteURL)
             print("\n") """
+            self.fetch_site_info(siteName, siteURL, siteMuni, siteAddress, siteType )
 
       except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/get_site_links/Loop through tr: %s", error)
+            self.logger.error("ManitobaHistoricalScrapper/get_site_links/Loop through tr " + siteType + ": %s", error)
 
 
 
@@ -125,10 +127,17 @@ class ManitobaHistoricalScrapper():
             siteDescription += text
 
       except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Description: %s", error)
+            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Description: %s \nUrl: " + siteURL, error)
 
       #Getting site pictures
+
+      #Have to do this because some sites have multiple blockquotes, and the "photos" tag doesn't appear on sites with only one blockquote
+      picStart = relevantData.find(id="photos")
       picBlock = relevantData.find_all("blockquote")[0]
+      if picStart != None:
+         picBlock = picStart.find_next_sibling("blockquote")
+
+
       picRelavant = picBlock.table.tr.td
 
       picLink = None
@@ -137,7 +146,7 @@ class ManitobaHistoricalScrapper():
       for row in picRelavant.contents:
          try:
           #Might as well get the location while I'm at it
-          if "Site Coordinates (lat/long):" in row.text:
+          if "Site" in row.text and "(lat/long):" in row.text:
               siteLocation = row.a.text
               break
 
@@ -147,15 +156,17 @@ class ManitobaHistoricalScrapper():
           if img.name == 'img':
               picLink = img['src']
               try:
-                 img_data = requests.get(self.baseImageUrl + picLink).content
+                 img_full_url = self.baseImageUrl + picLink.split("images/")[1]
+                 img_data = requests.get(img_full_url).content
 
-                 #get image name with unique timestamp
-                 picName = picLink[picLink.find('/')+1 : picLink.find('.')] + "_" + str(calendar.timegm(time.gmtime())) + "." + picLink.split(".")[1]
+                 #get image name with unique timestamp, downloads to folder
+                 picName = picLink[picLink.find('images/')+7 : picLink.find('.')] + "_" + str(calendar.timegm(time.gmtime())) + "." + picLink.split(".")[1]
                  imagePath = join(dirname(abspath(__file__)), "Site_Images", picName)
                  with open(imagePath, 'wb') as handler:
-                      handler.write(img_data)
+                     handler.write(img_data)
               except Exception as error:
-                self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Download Image: %s", error)
+                self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Download Image:  %s \nUrl: " + siteURL, error)
+
           elif picLink != None and row.text != '\n':
              sitePictures.append(dict(link = picLink, name = picName, info = row.text))
              picLink = None
@@ -163,7 +174,8 @@ class ManitobaHistoricalScrapper():
 
 
          except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Image: %s", error)
+            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Image:  %s \nUrl: " + siteURL, error)
+
 
 
       #Getting Site Sources
@@ -182,12 +194,22 @@ class ManitobaHistoricalScrapper():
             #Get next source
             currentSource = currentSource.find_next_sibling('p')
           except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Sources: %s", error)
-      latitude = float(siteLocation.split(', ')[0].replace("N", "").replace("S","-"))
-      longitude = float(siteLocation.split(', ')[1].replace("W", "-").replace("E", ""))
-      self.allSites.append(dict(site_name = siteName, type = siteType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
+            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Sources: %s \nUrl: " + siteURL, error)
+
+      latitude = None
+      longitude = None
+      firstType = [siteType]
+      try:
+        latitude = float(siteLocation.split(', ')[0].replace("N", "").replace("S","-"))
+        longitude = float(siteLocation.split(', ')[1].replace("W", "-").replace("E", ""))
+      except Exception as error:
+            latitude = None
+            longitude = None
+            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Get Location: %s \nUrl: " + siteURL, error)
+      self.allSites.append(dict(site_name = siteName, type = firstType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
     except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info: %s", error)
+            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info: %s \nUrl: " + siteURL, error)
+
 
 
 
@@ -199,17 +221,23 @@ class ManitobaHistoricalScrapper():
 
 
 if __name__ == "__main__":
+    logger = logging.getLogger("main")
+    logger.setLevel(logging.DEBUG)
+    file_handler = logging.handlers.RotatingFileHandler(filename="historical_society_scrapper.log",
+                                                  maxBytes=10485760,
+                                                  backupCount=10)
+    file_handler.setLevel(logging.DEBUG)
+    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
+    logger.info("Application Historical Society Scrapper Started")
     siteScraper = ManitobaHistoricalScrapper()
     siteScraper.get_all_varibles()
     #print(siteScraper.allMunicipality)
     #print(siteScraper.allTypes)
     siteScraper.get_site_links()
-    siteScraper.fetch_site_info("Brodie School No. 1854", "http://www.mhs.mb.ca/docs/sites/brodieschool.shtml", "Alexander", "Stead", "Building")
+    #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/stjohncemeterystead.shtml", "Alexander", "Stead", "Building")
     print(siteScraper.allSites[0]["site_name"])
-    for pic in siteScraper.allSites[0]["pictures"]:
-       print(pic["name"])
-       print(pic["info"])
-       print()
 
     database = DBOperations()
     database.initialize_db()
