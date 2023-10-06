@@ -26,6 +26,13 @@ class ManitobaHistoricalScrapper():
   urlEND = "&submit=Search"
   baseSiteImageUrl = "http://www.mhs.mb.ca/docs/sites/images/"
   baseFeatureImageURL = "http://www.mhs.mb.ca/docs/features/"
+  baseImageURL = "http://www.mhs.mb.ca/docs/"
+
+  #Urls that are not included because they are not a phyiscal site
+  excludedNonSitesURLs = ["http://www.mhs.mb.ca/docs/sites/mhswarmemorial.shtml"]
+
+  #Urls where the page is so broken I would have to rewrite my entire code for these edge casses
+  excludedProblematicUrls = ["http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml"]
 
   def __init__(self):
     try:
@@ -82,14 +89,24 @@ class ManitobaHistoricalScrapper():
             self.errorCount += 1
     return duplicate
 
+  def get_all_sites(self):
+     """Gets all sites"""
+     try:
+        self.get_all_varibles
+        for siteType in self.allTypes:
+           self.get_all_site_links_for_type(siteType)
 
-  def get_site_links(self):
+     except Exception as error:
+            self.logger.error("ManitobaHistoricalScrapper/get_all_sites: %s", error)
+            self.errorCount += 1
+
+
+  def get_all_site_links_for_type(self, siteType):
     """Gets all the links for the site"""
     #for muni in self.allMunicipality:
     #for type in self.allTypes:
 
-    #Temp for testing
-    siteType = "Museum%2FArchives"
+
     try:
       url = self.get_url("", siteType)
       page = requests.get(url)
@@ -104,18 +121,18 @@ class ManitobaHistoricalScrapper():
             siteAddress = row.contents[2].text
             """ print(siteName + ", " + siteMuni + ", " + siteAddress + ", " + siteURL)
             print("\n") """
-            if self.check_if_duplicate_site(siteURL, siteType) == False:
+            if self.check_if_duplicate_site(siteURL, siteType) == False and siteURL not in self.excludedNonSitesURLs and siteURL not in self.excludedProblematicUrls:
               self.fetch_site_info(siteName, siteURL, siteMuni, siteAddress, siteType )
 
 
       except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/get_site_links/Loop through tr " + siteType + ": %s", error)
+            self.logger.error("ManitobaHistoricalScrapper/get_all_site_links_for_type/Loop through tr " + siteType + ": %s", error)
             self.errorCount += 1
 
 
 
     except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/get_site_links %s", error)
+            self.logger.error("ManitobaHistoricalScrapper/get_all_site_links_for_type %s", error)
             self.errorCount += 1
 
   def get_url(self, municipality, type):
@@ -160,8 +177,10 @@ class ManitobaHistoricalScrapper():
 
       #Getting site pictures
 
-      #Have to do this because some sites have multiple blockquotes, and the "photos" tag doesn't appear on sites with only one blockquote
+      #Have to do this because some sites have multiple blockquotes, and the "photos" tag doesn't appear on sites with only one blockquote. Some have the id "photos" some do not
       picStart = relevantData.find(id="photos")
+      if picStart == None:
+         picStart = relevantData.find("h2", string="Photos & Coordinates" )
       picBlock = relevantData.find_all("blockquote")[0]
       picRelavant = None
       try:
@@ -180,7 +199,7 @@ class ManitobaHistoricalScrapper():
          try:
           #Might as well get the location while I'm at it
           if "Site" in row.text and "(lat/long):" in row.text:
-              siteLocation = row.a.text
+              siteLocation = row.a.text.replace("\t", " ")
               break
 
 
@@ -190,10 +209,17 @@ class ManitobaHistoricalScrapper():
               picLink = img['src']
               try:
                   picName = picLink.split("/")[-1]
-                  if "features/" in picLink:
-                     img_full_url = self.baseFeatureImageURL + picLink.split("features/")[1]
+                  if "../" in picLink:
+                      websitePath = picLink.split("../")[1]
+                      img_full_url = self.baseImageURL + websitePath
                   else:
-                    img_full_url = self.baseSiteImageUrl + picName
+                     img_full_url = self.baseSiteImageUrl + picName
+
+                  # if "features/" in picLink:
+                  #    img_full_url = self.baseFeatureImageURL + picLink.split("features/")[1]
+                  # else:
+                  #   img_full_url = self.baseSiteImageUrl + picName
+
                   img_data = requests.get(img_full_url).content
 
 
@@ -209,7 +235,7 @@ class ManitobaHistoricalScrapper():
                 self.errorCount += 1
 
           elif picLink != None and row.text != '\n':
-             sitePictures.append(dict(link = picLink, name = fileName, info = row.text))
+             sitePictures.append(dict(link = img_full_url, name = fileName, info = row.text))
              picLink = None
              fileName = None
 
@@ -283,13 +309,13 @@ if __name__ == "__main__":
     logger.addHandler(file_handler)
     logger.info("Application Historical Society Scrapper Started")
     siteScraper = ManitobaHistoricalScrapper()
-    siteScraper.saveImages = False
+    #siteScraper.saveImages = False
     siteScraper.get_all_varibles()
     #print(siteScraper.allMunicipality)
     #print(siteScraper.allTypes)
-    #asyncio.run(siteScraper.get_site_links())
-    siteScraper.get_site_links()
-    #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/archibaldmuseum.shtml", "Alexander", "Stead", "Building")
+    #asyncio.run(siteScraper.get_all_site_links_for_type("Museum%2FArchives"))
+    siteScraper.get_all_site_links_for_type("Museum%2FArchives")
+    #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/gabrielleroyhouse.shtml", "Alexander", "Stead", "Building")
     #print(siteScraper.allSites[0]["site_name"])
     print("# of error fetching data: " + str(siteScraper.errorCount))
 
