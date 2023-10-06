@@ -21,3 +21,13 @@ Url: http://www.mhs.mb.ca/docs/sites/walterwhyteschool.shtml
 2023-10-06 10:03:02,213 - main - INFO - Application Historical Society Scrapper Started
 2023-10-06 10:03:51,987 - main - INFO - Application Historical Society Scrapper Started
 2023-10-06 10:04:25,838 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 10:18:44,821 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 10:18:56,787 - main.database_operations - ERROR - DBOperations/manitoba_historical_website_save_data/Insert Into database: Incorrect number of bindings supplied. The current statement uses 10, and there are 9 supplied.
+2023-10-06 10:18:56,788 - main.database_operations - ERROR - DBOperations/manitoba_historical_website_save_data/Insert Into database: Incorrect number of bindings supplied. The current statement uses 10, and there are 9 supplied.
+2023-10-06 10:18:56,788 - main.database_operations - ERROR - DBOperations/manitoba_historical_website_save_data/Insert Into database: Incorrect number of bindings supplied. The current statement uses 10, and there are 9 supplied.
+2023-10-06 10:18:56,789 - main.database_operations - ERROR - DBOperations/manitoba_historical_website_save_data/Insert Into database: Incorrect number of bindings supplied. The current statement uses 10, and there are 9 supplied.
+2023-10-06 10:18:56,789 - main.database_operations - ERROR - DBOperations/manitoba_historical_website_save_data/Insert Into database: Incorrect number of bindings supplied. The current statement uses 10, and there are 9 supplied.
+2023-10-06 10:18:56,789 - main.database_operations - ERROR - DBOperations/manitoba_historical_website_save_data/Insert Into database: Incorrect number of bindings supplied. The current statement uses 10, and there are 9 supplied.
+2023-10-06 10:18:56,790 - main.database_operations - ERROR - DBOperations/manitoba_historical_website_save_data/Insert Into database: Incorrect number of bindings supplied. The current statement uses 10, and there are 9 supplied.
+2023-10-06 10:18:56,790 - main.database_operations - ERROR - DBOperations/manitoba_historical_website_save_data/Insert Into database: Incorrect number of bindings supplied. The current statement uses 10, and there are 9 supplied.
+2023-10-06 10:20:11,277 - main - INFO - Application Historical Society Scrapper Started

@@ -81,6 +81,7 @@ class DBOperations:
               cursor.execute("""DELETE FROM manitobaHistoricalSite;""")
               cursor.execute("""DELETE FROM sitePhotos;""")
               cursor.execute("""DELETE FROM siteSource;""")
+              cursor.execute("""DELETE FROM siteType;""")
 
           except Exception as error:
               self.logger.error('DBOperations/purge_data: %s', error)
@@ -114,8 +115,8 @@ class DBOperations:
             #sql = """SELECT TOP 1 site_id FROM historicalSite WHERE streetName = ? AND streetNumber = ?"""
 
             insert_site_sql =  """INSERT OR IGNORE into manitobaHistoricalSite
-            (name, address, latitude, longitude, province, municipality, description, type, site_url, import_date)
-            values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"""
+            (name, address, latitude, longitude, province, municipality, description, site_url, import_date)
+            values (?, ?, ?, ?, ?, ?, ?, ?, ?)"""
 
             insert_photo_sql =  """INSERT OR IGNORE into sitePhotos
             (site_id, photo_name, photo_url, info, import_date)
@@ -125,12 +126,16 @@ class DBOperations:
             (site_id, info, import_date)
             values (?, ?, ?)"""
 
+            insert_type_sql =  """INSERT OR IGNORE into siteType
+            (site_id, type, import_date)
+            values (?, ?, ?)"""
+
             with DBCM(self.database) as cursor:
                 print("Insert data from Manitoba Historical Society to database")
                 before_insert = cursor.execute("SELECT COUNT() FROM manitobaHistoricalSite").fetchone()[0]
                 for newSite in historical_sites_list:
                     try:
-                        cursor.execute(insert_site_sql, (newSite["site_name"], newSite["address"], newSite["latitude"], newSite["longitude"] , "MB" , newSite["municipality"], newSite["description"] , newSite["type"], newSite["url"] , datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
+                        cursor.execute(insert_site_sql, (newSite["site_name"], newSite["address"], newSite["latitude"], newSite["longitude"] , "MB" , newSite["municipality"], newSite["description"], newSite["url"] , datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
                         site_id = cursor.lastrowid
 
                         for pic in newSite["pictures"]:
@@ -144,6 +149,12 @@ class DBOperations:
                                 cursor.execute(insert_source_sql, (site_id, source["info"], datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
                             except Exception as error:
                                 self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database/Save Source: %s', error)
+
+                        for siteType in newSite["types"]:
+                            try:
+                                cursor.execute(insert_type_sql, (site_id, siteType, datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
+                            except Exception as error:
+                                self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database/Save Site Types: %s', error)
 
 
 

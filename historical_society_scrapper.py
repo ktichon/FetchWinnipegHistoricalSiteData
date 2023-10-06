@@ -206,7 +206,7 @@ class ManitobaHistoricalScrapper():
             latitude = None
             longitude = None
             self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Get Location: %s \nUrl: " + siteURL, error)
-      self.allSites.append(dict(site_name = siteName, type = firstType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
+      self.allSites.append(dict(site_name = siteName, types = firstType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
     except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/fetch_site_info: %s \nUrl: " + siteURL, error)
 
@@ -239,6 +239,7 @@ if __name__ == "__main__":
     #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/stjohncemeterystead.shtml", "Alexander", "Stead", "Building")
     print(siteScraper.allSites[0]["site_name"])
 
+    logger.info("Application Insert Data into Database")
     database = DBOperations()
     database.initialize_db()
     database.purge_data()
