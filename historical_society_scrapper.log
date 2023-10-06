@@ -33,3 +33,337 @@ Url: http://www.mhs.mb.ca/docs/sites/walterwhyteschool.shtml
 2023-10-06 10:20:11,277 - main - INFO - Application Historical Society Scrapper Started
 2023-10-06 10:47:12,836 - main - INFO - Application Historical Society Scrapper Started
 2023-10-06 10:47:26,645 - main - INFO - Application Insert Data into Database
+2023-10-06 11:00:17,277 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 11:00:25,700 - main - INFO - Insert Data into Database
+2023-10-06 11:02:36,996 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 11:02:41,092 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/gardinerbuilding.shtml
+2023-10-06 11:02:43,066 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/airforceheritagemuseum.shtml
+2023-10-06 11:02:46,998 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/archibaldmuseum.shtml
+2023-10-06 11:02:51,194 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/beckoninghillsmuseum.shtml
+2023-10-06 11:02:52,727 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonarmoury.shtml
+2023-10-06 11:03:09,359 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/cookscreekmuseum.shtml
+2023-10-06 11:03:19,669 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/ethelbertmuseum.shtml
+2023-10-06 11:03:20,496 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/fortdauphinmuseum.shtml
+2023-10-06 11:03:22,761 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/gabrielleroyhouse.shtml
+2023-10-06 11:03:27,959 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/headingleymuseum.shtml
+2023-10-06 11:03:35,548 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/dalnavert.shtml
+2023-10-06 11:03:35,775 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/manitobaagriculturalmuseum.shtml
+2023-10-06 11:03:35,775 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/manitobaagriculturalmuseum.shtml
+2023-10-06 11:03:40,795 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/mhswarmemorial.shtml
+2023-10-06 11:03:48,648 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/mennonitevillage.shtml
+2023-10-06 11:03:58,066 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/commonwealthairtraininghangar.shtml
+2023-10-06 11:04:16,305 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/satterthwaitecabin.shtml
+2023-10-06 11:04:27,135 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/monseigneurtache.shtml
+2023-10-06 11:04:30,345 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '50.86165,\tW98.10266' 
+Url: http://www.mhs.mb.ca/docs/sites/eriksdaleanglican.shtml
+2023-10-06 11:04:33,143 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/stmargaretsanglicanmafeking.shtml
+2023-10-06 11:04:39,748 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/trehernemuseum.shtml
+2023-10-06 11:04:42,070 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/ukrainianmuseumsandylake.shtml
+2023-10-06 11:04:42,275 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/birdtailmuseum.shtml
+2023-10-06 11:04:46,713 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/sipiweskemuseum.shtml
+2023-10-06 11:04:51,614 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml
+2023-10-06 11:04:51,615 - main - INFO - Insert Data into Database
+2023-10-06 11:08:10,026 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 11:08:14,332 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/gardinerbuilding.shtml
+2023-10-06 11:08:16,344 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/airforceheritagemuseum.shtml
+2023-10-06 11:08:19,730 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/archibaldmuseum.shtml
+2023-10-06 11:08:24,417 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/beckoninghillsmuseum.shtml
+2023-10-06 11:08:25,904 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonarmoury.shtml
+2023-10-06 11:08:43,770 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/cookscreekmuseum.shtml
+2023-10-06 11:08:54,743 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/ethelbertmuseum.shtml
+2023-10-06 11:08:55,535 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/fortdauphinmuseum.shtml
+2023-10-06 11:08:58,059 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/gabrielleroyhouse.shtml
+2023-10-06 11:09:03,255 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/headingleymuseum.shtml
+2023-10-06 11:09:10,951 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/dalnavert.shtml
+2023-10-06 11:09:11,178 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/manitobaagriculturalmuseum.shtml
+2023-10-06 11:09:11,178 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/manitobaagriculturalmuseum.shtml
+2023-10-06 11:09:15,996 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/mhswarmemorial.shtml
+2023-10-06 11:09:23,751 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/mennonitevillage.shtml
+2023-10-06 11:09:30,100 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/commonwealthairtraininghangar.shtml
+2023-10-06 11:09:45,442 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/satterthwaitecabin.shtml
+2023-10-06 11:09:53,262 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/monseigneurtache.shtml
+2023-10-06 11:09:56,676 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '50.86165,\tW98.10266' 
+Url: http://www.mhs.mb.ca/docs/sites/eriksdaleanglican.shtml
+2023-10-06 11:09:59,812 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/stmargaretsanglicanmafeking.shtml
+2023-10-06 11:10:06,296 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/trehernemuseum.shtml
+2023-10-06 11:10:08,635 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/ukrainianmuseumsandylake.shtml
+2023-10-06 11:10:08,830 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/birdtailmuseum.shtml
+2023-10-06 11:10:13,508 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/sipiweskemuseum.shtml
+2023-10-06 11:10:18,911 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml
+2023-10-06 11:10:18,911 - main - INFO - Insert Data into Database
+2023-10-06 11:23:36,989 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 11:23:41,861 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/gardinerbuilding.shtml
+
+2023-10-06 11:26:37,692 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 11:26:41,762 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/gardinerbuilding.shtml
+
+2023-10-06 11:26:43,935 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/airforceheritagemuseum.shtml
+
+2023-10-06 11:26:47,734 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/archibaldmuseum.shtml
+
+2023-10-06 11:26:52,716 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/beckoninghillsmuseum.shtml
+
+2023-10-06 11:26:54,449 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonarmoury.shtml
+
+2023-10-06 11:27:14,455 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/cookscreekmuseum.shtml
+
+2023-10-06 11:27:25,198 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/ethelbertmuseum.shtml
+
+2023-10-06 11:27:25,989 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/fortdauphinmuseum.shtml
+
+2023-10-06 11:27:28,308 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/gabrielleroyhouse.shtml
+
+2023-10-06 11:27:33,142 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/headingleymuseum.shtml
+
+2023-10-06 11:27:40,765 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/dalnavert.shtml
+
+2023-10-06 11:27:41,016 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/manitobaagriculturalmuseum.shtml
+
+2023-10-06 11:27:41,016 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/manitobaagriculturalmuseum.shtml
+
+2023-10-06 11:27:48,959 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/mhswarmemorial.shtml
+
+2023-10-06 11:27:56,639 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/mennonitevillage.shtml
+
+2023-10-06 11:28:03,192 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/commonwealthairtraininghangar.shtml
+
+2023-10-06 11:28:16,102 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/satterthwaitecabin.shtml
+
+2023-10-06 11:28:24,760 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/monseigneurtache.shtml
+
+2023-10-06 11:28:24,761 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'contents' 
+Url: http://www.mhs.mb.ca/docs/sites/monseigneurtache.shtml
+
+2023-10-06 11:28:28,054 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '50.86165,\tW98.10266' 
+Url: http://www.mhs.mb.ca/docs/sites/eriksdaleanglican.shtml
+
+2023-10-06 11:28:31,195 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/stmargaretsanglicanmafeking.shtml
+
+2023-10-06 11:28:40,715 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/trehernemuseum.shtml
+
+2023-10-06 11:28:43,209 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/ukrainianmuseumsandylake.shtml
+
+2023-10-06 11:28:43,394 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/birdtailmuseum.shtml
+
+2023-10-06 11:28:47,529 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/sipiweskemuseum.shtml
+
+2023-10-06 11:28:55,863 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml
+
+2023-10-06 11:28:55,864 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml
+
+2023-10-06 11:28:55,864 - main - INFO - Insert Data into Database
+2023-10-06 11:47:29,558 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 11:47:33,684 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/gardinerbuilding.shtml
+
+2023-10-06 11:47:35,963 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/airforceheritagemuseum.shtml
+
+2023-10-06 11:47:40,400 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/archibaldmuseum.shtml
+
+2023-10-06 11:47:44,953 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/beckoninghillsmuseum.shtml
+
+2023-10-06 11:47:46,625 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonarmoury.shtml
+
+2023-10-06 11:48:06,523 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/cookscreekmuseum.shtml
+
+2023-10-06 11:48:18,035 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/ethelbertmuseum.shtml
+
+2023-10-06 11:48:19,115 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/fortdauphinmuseum.shtml
+
+2023-10-06 11:48:21,888 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/gabrielleroyhouse.shtml
+
+2023-10-06 11:48:26,961 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/headingleymuseum.shtml
+
+2023-10-06 11:48:34,983 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/dalnavert.shtml
+
+2023-10-06 11:48:35,271 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/manitobaagriculturalmuseum.shtml
+
+2023-10-06 11:48:35,271 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/manitobaagriculturalmuseum.shtml
+
+2023-10-06 11:48:43,119 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/mhswarmemorial.shtml
+
+2023-10-06 11:48:51,204 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/mennonitevillage.shtml
+
+2023-10-06 11:48:57,479 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/commonwealthairtraininghangar.shtml
+
+2023-10-06 11:49:13,278 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/satterthwaitecabin.shtml
+
+2023-10-06 11:49:21,752 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/monseigneurtache.shtml
+
+2023-10-06 11:49:21,753 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'contents' 
+Url: http://www.mhs.mb.ca/docs/sites/monseigneurtache.shtml
+
+2023-10-06 11:49:25,332 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '50.86165,\tW98.10266' 
+Url: http://www.mhs.mb.ca/docs/sites/eriksdaleanglican.shtml
+
+2023-10-06 11:49:28,700 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/stmargaretsanglicanmafeking.shtml
+
+2023-10-06 11:49:35,261 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/trehernemuseum.shtml
+
+2023-10-06 11:49:40,911 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/ukrainianmuseumsandylake.shtml
+
+2023-10-06 11:49:41,124 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/birdtailmuseum.shtml
+
+2023-10-06 11:49:49,311 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/sipiweskemuseum.shtml
+
+2023-10-06 11:49:54,495 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml
+
+2023-10-06 11:49:54,495 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml
+
+2023-10-06 11:49:54,496 - main - INFO - Insert Data into Database
+2023-10-06 12:10:35,277 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:15:29,056 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:17:07,619 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:17:57,390 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:19:11,023 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:21:08,881 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:24:04,726 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:24:45,870 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:25:19,579 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:26:09,603 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:26:17,538 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:26:26,897 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/archibaldmuseum.shtml
+
+2023-10-06 12:26:50,010 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/cookscreekmuseum.shtml
+
+2023-10-06 12:27:03,454 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 12:27:17,900 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/archibaldmuseum.shtml
+
+2023-10-06 12:27:40,923 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/cookscreekmuseum.shtml
+
+2023-10-06 12:27:55,007 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/gabrielleroyhouse.shtml
+
+2023-10-06 12:28:07,810 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/manitobaagriculturalmuseum.shtml
+
+2023-10-06 12:28:07,810 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/manitobaagriculturalmuseum.shtml
+
+2023-10-06 12:28:12,647 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/mhswarmemorial.shtml
+
+2023-10-06 12:28:25,141 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/mennonitevillage.shtml
+
+2023-10-06 12:28:51,372 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/monseigneurtache.shtml
+
+2023-10-06 12:28:51,373 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'contents' 
+Url: http://www.mhs.mb.ca/docs/sites/monseigneurtache.shtml
+
+2023-10-06 12:28:55,519 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '50.86165,\tW98.10266' 
+Url: http://www.mhs.mb.ca/docs/sites/eriksdaleanglican.shtml
+
+2023-10-06 12:28:58,643 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/stmargaretsanglicanmafeking.shtml
+
+2023-10-06 12:29:16,756 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Download Image:  list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/sipiweskemuseum.shtml
+
+2023-10-06 12:29:22,113 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml
+
+2023-10-06 12:29:22,113 - main - INFO - Insert Data into Database
