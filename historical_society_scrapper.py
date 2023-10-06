@@ -65,7 +65,7 @@ class ManitobaHistoricalScrapper():
           fetchedType = soup.find("select", id="st-name")
           for type in fetchedType.stripped_strings:
             if type != "*ALL*":
-              self.allTypes.append(type.replace(" ", "+"))
+              self.allTypes.append(type.replace(" ", "+").replace("/", "%2F"))
         except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/get_all_varibles/Get Types: %s", error)
             self.errorCount += 1
@@ -92,7 +92,6 @@ class ManitobaHistoricalScrapper():
   def get_all_sites(self):
      """Gets all sites"""
      try:
-        self.get_all_varibles
         for siteType in self.allTypes:
            self.get_all_site_links_for_type(siteType)
 
@@ -309,14 +308,16 @@ if __name__ == "__main__":
     logger.addHandler(file_handler)
     logger.info("Application Historical Society Scrapper Started")
     siteScraper = ManitobaHistoricalScrapper()
-    #siteScraper.saveImages = False
+    siteScraper.saveImages = False
     siteScraper.get_all_varibles()
     #print(siteScraper.allMunicipality)
     #print(siteScraper.allTypes)
     #asyncio.run(siteScraper.get_all_site_links_for_type("Museum%2FArchives"))
-    siteScraper.get_all_site_links_for_type("Museum%2FArchives")
+    #siteScraper.get_all_site_links_for_type("Museum%2FArchives")
     #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/gabrielleroyhouse.shtml", "Alexander", "Stead", "Building")
     #print(siteScraper.allSites[0]["site_name"])
+    siteScraper.get_all_sites()
+
     print("# of error fetching data: " + str(siteScraper.errorCount))
 
     logger.info("Insert Data into Database")
