@@ -367,3 +367,26 @@ Url: http://www.mhs.mb.ca/docs/sites/sipiweskemuseum.shtml
 Url: http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml
 
 2023-10-06 12:29:22,113 - main - INFO - Insert Data into Database
+2023-10-06 12:33:09,744 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 13:23:25,454 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 13:24:18,897 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 13:25:48,514 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 13:26:57,293 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/mhswarmemorial.shtml
+
+2023-10-06 13:27:38,074 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/monseigneurtache.shtml
+
+2023-10-06 13:27:38,074 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'NoneType' object has no attribute 'contents' 
+Url: http://www.mhs.mb.ca/docs/sites/monseigneurtache.shtml
+
+2023-10-06 13:27:41,566 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '50.86165,\tW98.10266' 
+Url: http://www.mhs.mb.ca/docs/sites/eriksdaleanglican.shtml
+
+2023-10-06 13:27:47,936 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/stmargaretsanglicanmafeking.shtml
+
+2023-10-06 13:28:06,835 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml
+
+2023-10-06 13:28:06,835 - main - INFO - Insert Data into Database

@@ -20,11 +20,12 @@ from database_operations import DBOperations
 class ManitobaHistoricalScrapper():
   """Scrapes info from """
   logger = logging.getLogger("main." + __name__)
-  BASEURL = "http://www.mb1870.org/mhs-map/search?go=t&string1=&op2=AND&string2=&op3=AND&string3="
+  BASE_SEARCH_URL = "http://www.mb1870.org/mhs-map/search?go=t&string1=&op2=AND&string2=&op3=AND&string3="
   urlMuni = "&m-name="
   urlType = "&st-name="
   urlEND = "&submit=Search"
-  baseImageUrl = "http://www.mhs.mb.ca/docs/sites/images/"
+  baseSiteImageUrl = "http://www.mhs.mb.ca/docs/sites/images/"
+  baseFeatureImageURL = "http://www.mhs.mb.ca/docs/features/"
 
   def __init__(self):
     try:
@@ -119,7 +120,7 @@ class ManitobaHistoricalScrapper():
 
   def get_url(self, municipality, type):
     """Returns the properly formated url"""
-    return self.BASEURL + "&m-name=" + municipality + "&st-name=" + type + "&submit=Search"
+    return self.BASE_SEARCH_URL + "&m-name=" + municipality + "&st-name=" + type + "&submit=Search"
 
 
   def fetch_site_info(self, siteName, siteURL, siteMuni, siteAddress, siteType):
@@ -172,7 +173,8 @@ class ManitobaHistoricalScrapper():
             self.errorCount += 1
 
       picLink = None
-      picName = None
+      fileName = None
+      img_full_url = None
 
       for row in picRelavant.contents:
          try:
@@ -187,23 +189,29 @@ class ManitobaHistoricalScrapper():
           if img.name == 'img':
               picLink = img['src']
               try:
-                 img_full_url = self.baseImageUrl + picLink.split("images/")[1]
-                 img_data = requests.get(img_full_url).content
+                  picName = picLink.split("/")[-1]
+                  if "features/" in picLink:
+                     img_full_url = self.baseFeatureImageURL + picLink.split("features/")[1]
+                  else:
+                    img_full_url = self.baseSiteImageUrl + picName
+                  img_data = requests.get(img_full_url).content
 
-                 #get image name with unique timestamp, downloads to folder
-                 picName = picLink[picLink.find('images/')+7 : picLink.find('.')] + "_" + str(calendar.timegm(time.gmtime())) + "." + picLink.split(".")[1]
-                 imagePath = join(dirname(abspath(__file__)), "Site_Images", picName)
-                 if self.saveImages:
-                  with open(imagePath, 'wb') as handler:
-                      handler.write(img_data)
+
+                  #get image name with unique timestamp, downloads to folder
+                  #fileName = picLink[picLink.find('images/')+7 : picLink.find('.')] + "_" + str(calendar.timegm(time.gmtime())) + "." + picLink.split(".")[1]
+                  fileName = picName.split(".")[0] + "_" + str(calendar.timegm(time.gmtime())) + "." + picName.split(".")[1]
+                  imagePath = join(dirname(abspath(__file__)), "Site_Images", fileName)
+                  if self.saveImages:
+                    with open(imagePath, 'wb') as handler:
+                        handler.write(img_data)
               except Exception as error:
                 self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Download Image:  %s \nUrl: " + siteURL + "\n", error)
                 self.errorCount += 1
 
           elif picLink != None and row.text != '\n':
-             sitePictures.append(dict(link = picLink, name = picName, info = row.text))
+             sitePictures.append(dict(link = picLink, name = fileName, info = row.text))
              picLink = None
-             picName = None
+             fileName = None
 
 
          except Exception as error:
@@ -281,7 +289,7 @@ if __name__ == "__main__":
     #print(siteScraper.allTypes)
     #asyncio.run(siteScraper.get_site_links())
     siteScraper.get_site_links()
-    #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/gardinerbuilding.shtml", "Alexander", "Stead", "Building")
+    #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/archibaldmuseum.shtml", "Alexander", "Stead", "Building")
     #print(siteScraper.allSites[0]["site_name"])
     print("# of error fetching data: " + str(siteScraper.errorCount))
 
