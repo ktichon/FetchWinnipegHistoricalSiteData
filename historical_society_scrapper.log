@@ -31,3 +31,5 @@ Url: http://www.mhs.mb.ca/docs/sites/walterwhyteschool.shtml
 2023-10-06 10:18:56,790 - main.database_operations - ERROR - DBOperations/manitoba_historical_website_save_data/Insert Into database: Incorrect number of bindings supplied. The current statement uses 10, and there are 9 supplied.
 2023-10-06 10:18:56,790 - main.database_operations - ERROR - DBOperations/manitoba_historical_website_save_data/Insert Into database: Incorrect number of bindings supplied. The current statement uses 10, and there are 9 supplied.
 2023-10-06 10:20:11,277 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 10:47:12,836 - main - INFO - Application Historical Society Scrapper Started
+2023-10-06 10:47:26,645 - main - INFO - Application Insert Data into Database

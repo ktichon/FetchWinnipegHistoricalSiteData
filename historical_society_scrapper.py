@@ -30,6 +30,7 @@ class ManitobaHistoricalScrapper():
         self.allMunicipality = []
         self.allTypes = []
         self.allSites = []
+        self.saveImages = True
 
 
     except Exception as error:
@@ -95,7 +96,8 @@ class ManitobaHistoricalScrapper():
             siteAddress = row.contents[2].text
             """ print(siteName + ", " + siteMuni + ", " + siteAddress + ", " + siteURL)
             print("\n") """
-            self.fetch_site_info(siteName, siteURL, siteMuni, siteAddress, siteType )
+            if self.check_if_duplicate_site(siteURL, siteType) == False:
+              self.fetch_site_info(siteName, siteURL, siteMuni, siteAddress, siteType )
 
       except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/get_site_links/Loop through tr " + siteType + ": %s", error)
@@ -177,8 +179,9 @@ class ManitobaHistoricalScrapper():
                  #get image name with unique timestamp, downloads to folder
                  picName = picLink[picLink.find('images/')+7 : picLink.find('.')] + "_" + str(calendar.timegm(time.gmtime())) + "." + picLink.split(".")[1]
                  imagePath = join(dirname(abspath(__file__)), "Site_Images", picName)
-                 with open(imagePath, 'wb') as handler:
-                     handler.write(img_data)
+                 if self.saveImages:
+                  with open(imagePath, 'wb') as handler:
+                      handler.write(img_data)
               except Exception as error:
                 self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Download Image:  %s \nUrl: " + siteURL, error)
 
@@ -247,6 +250,7 @@ if __name__ == "__main__":
     logger.addHandler(file_handler)
     logger.info("Application Historical Society Scrapper Started")
     siteScraper = ManitobaHistoricalScrapper()
+    siteScraper.saveImages = False
     siteScraper.get_all_varibles()
     #print(siteScraper.allMunicipality)
     #print(siteScraper.allTypes)
@@ -254,7 +258,7 @@ if __name__ == "__main__":
     #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/stjohncemeterystead.shtml", "Alexander", "Stead", "Building")
     print(siteScraper.allSites[0]["site_name"])
 
-    logger.info("Application Insert Data into Database")
+    logger.info("Insert Data into Database")
     database = DBOperations()
     database.initialize_db()
     database.purge_data()
