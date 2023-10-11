@@ -159,10 +159,10 @@ class DBOperations:
 
 
                         after_insert = cursor.execute("SELECT COUNT() FROM manitobaHistoricalSite").fetchone()[0]
-
+                        print("Inserted " + str(after_insert - before_insert) + " new rows into manitobaHistoricalSite")
                     except Exception as error:
                         self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database: %s', error)
-                print("Inserted " + str(after_insert - before_insert) + " new rows into manitobaHistoricalSite")
+
 
 
 

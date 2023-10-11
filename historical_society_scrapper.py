@@ -132,7 +132,7 @@ class ManitobaHistoricalScrapper():
             self.errorCount += 1
 
       numOfSitesPost = len(self.allSites)
-      print((numOfSitesPost - numOfSitesPre) + " " + siteType + " found")
+      print(str(numOfSitesPost - numOfSitesPre) + " " + siteType + " found")
 
 
 
@@ -230,7 +230,8 @@ class ManitobaHistoricalScrapper():
 
                   #get image name with unique timestamp, downloads to folder
                   #fileName = picLink[picLink.find('images/')+7 : picLink.find('.')] + "_" + str(calendar.timegm(time.gmtime())) + "." + picLink.split(".")[1]
-                  fileName = picName.split(".")[0] + "_" + str(calendar.timegm(time.gmtime())) + "." + picName.split(".")[1]
+                  firstPartOfName = siteURL.split("/")[-1]
+                  fileName =  firstPartOfName.split(".")[1] + "-" + picName.split(".")[0] + "_" + str(calendar.timegm(time.gmtime())) + "." + picName.split(".")[1]
                   imagePath = join(dirname(abspath(__file__)), "Site_Images", fileName)
                   if self.saveImages:
                     with open(imagePath, 'wb') as handler:
