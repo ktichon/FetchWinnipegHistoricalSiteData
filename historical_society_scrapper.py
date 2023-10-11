@@ -319,6 +319,7 @@ if __name__ == "__main__":
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
     logger.info("Application Historical Society Scrapper Started")
+    startTime = datetime.datetime.now()
     siteScraper = ManitobaHistoricalScrapper()
     #siteScraper.saveImages = False
 
@@ -328,10 +329,14 @@ if __name__ == "__main__":
     #siteScraper.get_all_site_links_for_type("Museum%2FArchives")
     #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/gabrielleroyhouse.shtml", "Alexander", "Stead", "Building")
     #print(siteScraper.allSites[0]["site_name"])
+    print("Start fetching data at " + str(startTime))
     siteScraper.get_all_sites()
+    endTime = datetime.datetime.now()
 
     print("# of error fetching data: " + str(siteScraper.errorCount))
     print("# of bad sites " + str(len(siteScraper.badSites)))
+    print("Completed fetching data at " + str(endTime))
+    print("Time it took to fetch data: " + (endTime - startTime))
 
     logger.info("Insert Data into Database")
     database = DBOperations()
