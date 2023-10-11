@@ -36,43 +36,45 @@ class ManitobaHistoricalScrapper():
 
   def __init__(self):
     try:
-        self.allMunicipality = []
-        self.allTypes = []
+        #self.allMunicipality = []
+        self.allTypes = ["Building", "Cemetery", "Featured+site","Location","Monument","Museum%2FArchives", "Other"]
         self.allSites = []
         self.saveImages = True
         self.errorCount = 0
+        self.badSites = []
 
 
     except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/init: %s", error)
 
 
-  def get_all_varibles(self):
-      """Gets the Municipality and site types used """
-      try:
-        page = requests.get(self.get_url("", ""))
-        soup = BeautifulSoup(page.content, "html.parser")
-        try:
-          fetchedMuni = soup.find("select", id="m-name")
-          for muni in fetchedMuni.stripped_strings:
-            if muni != "*ALL*":
-              self.allMunicipality.append(muni.replace(" ", "+"))
-        except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/get_all_varibles/Get Municipality: %s", error)
-            self.errorCount += 1
+  # def get_all_varibles(self):
+  #     """Gets the Municipality and site types used """
+  #     #Now unsed
+  #     try:
+  #       page = requests.get(self.get_url("", ""))
+  #       soup = BeautifulSoup(page.content, "html.parser")
+  #       try:
+  #         fetchedMuni = soup.find("select", id="m-name")
+  #         for muni in fetchedMuni.stripped_strings:
+  #           if muni != "*ALL*":
+  #             self.allMunicipality.append(muni.replace(" ", "+"))
+  #       except Exception as error:
+  #           self.logger.error("ManitobaHistoricalScrapper/get_all_varibles/Get Municipality: %s", error)
+  #           self.errorCount += 1
 
-        try:
-          fetchedType = soup.find("select", id="st-name")
-          for type in fetchedType.stripped_strings:
-            if type != "*ALL*":
-              self.allTypes.append(type.replace(" ", "+").replace("/", "%2F"))
-        except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/get_all_varibles/Get Types: %s", error)
-            self.errorCount += 1
+  #       try:
+  #         fetchedType = soup.find("select", id="st-name")
+  #         for type in fetchedType.stripped_strings:
+  #           if type != "*ALL*":
+  #             self.allTypes.append(type.replace(" ", "+").replace("/", "%2F"))
+  #       except Exception as error:
+  #           self.logger.error("ManitobaHistoricalScrapper/get_all_varibles/Get Types: %s", error)
+  #           self.errorCount += 1
 
-      except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/get_all_varibles: %s", error)
-            self.errorCount += 1
+  #     except Exception as error:
+  #           self.logger.error("ManitobaHistoricalScrapper/get_all_varibles: %s", error)
+  #           self.errorCount += 1
 
   def check_if_duplicate_site(self, siteURL, siteType):
     """Checks if the site has already been processed. Reason being a site with multiple types would be added twice. This way, it will instead add the new type to the existing entry in  allSites"""
@@ -110,6 +112,7 @@ class ManitobaHistoricalScrapper():
       url = self.get_url("", siteType)
       page = requests.get(url)
       soup = BeautifulSoup(page.content, "html.parser")
+      numOfSitesPre = len(self.allSites)
 
       try:
         for row in soup.tbody.find_all("tr"):
@@ -128,6 +131,9 @@ class ManitobaHistoricalScrapper():
             self.logger.error("ManitobaHistoricalScrapper/get_all_site_links_for_type/Loop through tr " + siteType + ": %s", error)
             self.errorCount += 1
 
+      numOfSitesPost = len(self.allSites)
+      print((numOfSitesPost - numOfSitesPre) + " " + siteType + " found")
+
 
 
     except Exception as error:
@@ -141,11 +147,11 @@ class ManitobaHistoricalScrapper():
 
   def fetch_site_info(self, siteName, siteURL, siteMuni, siteAddress, siteType):
     """Gets the site information and save it to a dictionary"""
+    startError = self.errorCount
     try:
       page = requests.get(siteURL)
       soup = BeautifulSoup(page.content, "html.parser")
       relevantData = soup.find_all("table")[0].contents[4]
-
       siteDescription = ""
       siteLocation = ""
       sitePictures = []
@@ -281,10 +287,15 @@ class ManitobaHistoricalScrapper():
             longitude = None
             self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Get Location: %s \nUrl: " + siteURL + "\n", error)
             self.errorCount += 1
-      self.allSites.append(dict(site_name = siteName, types = firstType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
+      if self.errorCount > startError:
+       self.badSites.append(siteURL)
+      else:
+        self.allSites.append(dict(site_name = siteName, types = firstType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
     except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/fetch_site_info: %s \nUrl: " + siteURL + "\n", error)
             self.errorCount += 1
+
+
 
 
 
@@ -308,8 +319,8 @@ if __name__ == "__main__":
     logger.addHandler(file_handler)
     logger.info("Application Historical Society Scrapper Started")
     siteScraper = ManitobaHistoricalScrapper()
-    siteScraper.saveImages = False
-    siteScraper.get_all_varibles()
+    #siteScraper.saveImages = False
+
     #print(siteScraper.allMunicipality)
     #print(siteScraper.allTypes)
     #asyncio.run(siteScraper.get_all_site_links_for_type("Museum%2FArchives"))
@@ -319,6 +330,7 @@ if __name__ == "__main__":
     siteScraper.get_all_sites()
 
     print("# of error fetching data: " + str(siteScraper.errorCount))
+    print("# of bad sites " + str(len(siteScraper.badSites)))
 
     logger.info("Insert Data into Database")
     database = DBOperations()
