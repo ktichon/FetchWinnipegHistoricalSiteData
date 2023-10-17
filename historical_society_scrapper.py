@@ -114,22 +114,24 @@ class ManitobaHistoricalScrapper():
       soup = BeautifulSoup(page.content, "html.parser")
       numOfSitesPre = len(self.allSites)
 
-      try:
-        for row in soup.tbody.find_all("tr"):
-            columns = row.find_all("td")
-            siteName = row.contents[0].text
-            siteURL = row.contents[0].a["href"]
-            siteMuni = row.contents[1].text
-            siteAddress = row.contents[2].text
-            """ print(siteName + ", " + siteMuni + ", " + siteAddress + ", " + siteURL)
-            print("\n") """
-            if self.check_if_duplicate_site(siteURL, siteType) == False and siteURL not in self.excludedNonSitesURLs and siteURL not in self.excludedProblematicUrls:
-              self.fetch_site_info(siteName, siteURL, siteMuni, siteAddress, siteType )
+
+      for row in soup.tbody.find_all("tr"):
+         try:
+            if row.contents[0].has_attr("href"):
+              columns = row.find_all("td")
+              siteName = row.contents[0].text
+              siteURL = row.contents[0].a["href"]
+              siteMuni = row.contents[1].text
+              siteAddress = row.contents[2].text
+              """ print(siteName + ", " + siteMuni + ", " + siteAddress + ", " + siteURL)
+              print("\n") """
+              if self.check_if_duplicate_site(siteURL, siteType) == False and siteURL not in self.excludedNonSitesURLs and siteURL not in self.excludedProblematicUrls:
+                self.fetch_site_info(siteName, siteURL, siteMuni, siteAddress, siteType )
 
 
-      except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/get_all_site_links_for_type/Loop through tr " + siteType + ": %s", error)
-            self.errorCount += 1
+         except Exception as error:
+              self.logger.error("ManitobaHistoricalScrapper/get_all_site_links_for_type/Loop through tr " + siteType + ": %s", error)
+              self.errorCount += 1
 
       numOfSitesPost = len(self.allSites)
       print(str(numOfSitesPost - numOfSitesPre) + " " + siteType + " found")
@@ -193,7 +195,8 @@ class ManitobaHistoricalScrapper():
           picBlock = picStart.find_next_sibling("blockquote")
         picRelavant = picBlock.table.tr.td
       except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: %s \nUrl: " + siteURL + "\n", error)
+            if startError == self.errorCount:
+              self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: %s \nUrl: " + siteURL + "\n", error)
             self.errorCount += 1
 
       picLink = None
@@ -237,7 +240,8 @@ class ManitobaHistoricalScrapper():
                     with open(imagePath, 'wb') as handler:
                         handler.write(img_data)
               except Exception as error:
-                self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Download Image:  %s \nUrl: " + siteURL + "\n", error)
+                if startError == self.errorCount:
+                  self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Download Image:  %s \nUrl: " + siteURL + "\n", error)
                 self.errorCount += 1
 
           elif picLink != None and row.text != '\n':
@@ -247,7 +251,8 @@ class ManitobaHistoricalScrapper():
 
 
          except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Image:  %s \nUrl: " + siteURL + "\n", error)
+            if startError == self.errorCount:
+              self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Image:  %s \nUrl: " + siteURL + "\n", error)
             self.errorCount += 1
 
 
@@ -271,10 +276,12 @@ class ManitobaHistoricalScrapper():
               #Get next source
               currentSource = currentSource.find_next_sibling('p')
             except Exception as error:
-              self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: %s \nUrl: " + siteURL + "\n", error)
+              if startError == self.errorCount:
+                self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: %s \nUrl: " + siteURL + "\n", error)
               self.errorCount += 1
       except Exception as error:
-        self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Get Sources: %s \nUrl: " + siteURL + "\n", error)
+        if startError == self.errorCount:
+          self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Get Sources: %s \nUrl: " + siteURL + "\n", error)
         self.errorCount += 1
 
       latitude = None
@@ -286,14 +293,16 @@ class ManitobaHistoricalScrapper():
       except Exception as error:
             latitude = None
             longitude = None
-            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Get Location: %s \nUrl: " + siteURL + "\n", error)
+            if startError == self.errorCount:
+              self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Get Location: %s \nUrl: " + siteURL + "\n", error)
             self.errorCount += 1
       if self.errorCount > startError:
        self.badSites.append(siteURL)
       else:
         self.allSites.append(dict(site_name = siteName, types = firstType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
     except Exception as error:
-            self.logger.error("ManitobaHistoricalScrapper/fetch_site_info: %s \nUrl: " + siteURL + "\n", error)
+            if startError == self.errorCount:
+              self.logger.error("ManitobaHistoricalScrapper/fetch_site_info: %s \nUrl: " + siteURL + "\n", error)
             self.errorCount += 1
 
 
@@ -321,7 +330,7 @@ if __name__ == "__main__":
     logger.info("Application Historical Society Scrapper Started")
     startTime = datetime.datetime.now()
     siteScraper = ManitobaHistoricalScrapper()
-    #siteScraper.saveImages = False
+    siteScraper.saveImages = False
 
     #print(siteScraper.allMunicipality)
     #print(siteScraper.allTypes)
@@ -330,13 +339,14 @@ if __name__ == "__main__":
     #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/gabrielleroyhouse.shtml", "Alexander", "Stead", "Building")
     #print(siteScraper.allSites[0]["site_name"])
     print("Start fetching data at " + str(startTime))
-    siteScraper.get_all_sites()
+    #siteScraper.get_all_sites()
+    siteScraper.get_all_site_links_for_type("Building")
     endTime = datetime.datetime.now()
 
     print("# of error fetching data: " + str(siteScraper.errorCount))
     print("# of bad sites " + str(len(siteScraper.badSites)))
     print("Completed fetching data at " + str(endTime))
-    print("Time it took to fetch data: " + (endTime - startTime))
+    print("Time it took to fetch data: " + str(endTime - startTime))
 
     logger.info("Insert Data into Database")
     database = DBOperations()
