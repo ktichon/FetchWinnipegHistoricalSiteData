@@ -117,7 +117,8 @@ class ManitobaHistoricalScrapper():
 
       for row in soup.tbody.find_all("tr"):
          try:
-            if row.contents[0].has_attr("href"):
+            checkSiteLink = row.contents[0].find_all("a")
+            if len(checkSiteLink) > 0:
               columns = row.find_all("td")
               siteName = row.contents[0].text
               siteURL = row.contents[0].a["href"]
