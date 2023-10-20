@@ -21,7 +21,7 @@ class DBOperations:
         with DBCM(self.database) as cursor:
             try:
                 cursor.execute("""create table if not exists winnipegHistoricalSite
-                (id integer primary key autoincrement not null,
+                (site_id integer primary key autoincrement not null,
                 name text,
                 streetName text,
                 streetNumber text,
@@ -36,7 +36,7 @@ class DBOperations:
                 );""")
 
                 cursor.execute("""create table if not exists manitobaHistoricalSite
-                (id integer primary key autoincrement not null,
+                (site_id integer primary key not null,
                 name text,
                 address text,
                 latitude real,
@@ -92,7 +92,7 @@ class DBOperations:
         """Saves a dictionary of historical sites values from winnipeg open api to the database"""
         try:
             insert_sql =  """INSERT OR IGNORE into winnipegHistoricalSite
-            (name, streetName, streetNumber, constructionDate, shortUrl, longUrl, latitude, longitude,  city, province, import_date)
+            ( name, streetName, streetNumber, constructionDate, shortUrl, longUrl, latitude, longitude,  city, province, import_date)
             values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"""
 
 
@@ -115,8 +115,8 @@ class DBOperations:
             #sql = """SELECT TOP 1 site_id FROM historicalSite WHERE streetName = ? AND streetNumber = ?"""
 
             insert_site_sql =  """INSERT OR IGNORE into manitobaHistoricalSite
-            (name, address, latitude, longitude, province, municipality, description, site_url, import_date)
-            values (?, ?, ?, ?, ?, ?, ?, ?, ?)"""
+            (site_id, name, address, latitude, longitude, province, municipality, description, site_url, import_date)
+            values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"""
 
             insert_photo_sql =  """INSERT OR IGNORE into sitePhotos
             (site_id, photo_name, photo_url, info, import_date)
@@ -135,24 +135,25 @@ class DBOperations:
                 before_insert = cursor.execute("SELECT COUNT() FROM manitobaHistoricalSite").fetchone()[0]
                 for newSite in historical_sites_list:
                     try:
-                        cursor.execute(insert_site_sql, (newSite["site_name"], newSite["address"], newSite["latitude"], newSite["longitude"] , "MB" , newSite["municipality"], newSite["description"], newSite["url"] , datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
-                        site_id = cursor.lastrowid
+                        cursor.execute(insert_site_sql, ( newSite["site_id"], newSite["site_name"], newSite["address"], newSite["latitude"], newSite["longitude"] , "MB" , newSite["municipality"], newSite["description"], newSite["url"] , datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
+                        cursor.executemany(insert_photo_sql, newSite["pictures"])
+                        cursor.executemany(insert_source_sql, newSite["sources"] )
 
-                        for pic in newSite["pictures"]:
-                            try:
-                                cursor.execute(insert_photo_sql, (site_id, pic["name"], pic["link"], pic["info"], datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
-                            except Exception as error:
-                                self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database/Save Picture: %s', error)
+                        # for pic in newSite["pictures"]:
+                        #     try:
+                        #         cursor.execute(insert_photo_sql, (site_id, pic["name"], pic["link"], pic["info"], datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
+                        #     except Exception as error:
+                        #         self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database/Save Picture: %s', error)
 
-                        for source in newSite["sources"]:
-                            try:
-                                cursor.execute(insert_source_sql, (site_id, source["info"], datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
-                            except Exception as error:
-                                self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database/Save Source: %s', error)
+                        # for source in newSite["sources"]:
+                        #     try:
+                        #         cursor.execute(insert_source_sql, (site_id, source["info"], datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
+                        #     except Exception as error:
+                        #         self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database/Save Source: %s', error)
 
                         for siteType in newSite["types"]:
                             try:
-                                cursor.execute(insert_type_sql, (site_id, siteType, datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
+                                cursor.execute(insert_type_sql, (newSite["site_id"], siteType, datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
                             except Exception as error:
                                 self.logger.error('DBOperations/manitoba_historical_website_save_data/Insert Into database/Save Site Types: %s', error)
 

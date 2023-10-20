@@ -5,7 +5,8 @@ from html.parser import HTMLParser
 import logging
 import logging.handlers
 import re
-import datetime
+#import datetime
+from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 from os.path import abspath, dirname, join
@@ -33,48 +34,21 @@ class ManitobaHistoricalScrapper():
 
   #Urls where the page is so broken I would have to rewrite my entire code for these edge casses
   excludedProblematicUrls = ["http://www.mhs.mb.ca/docs/sites/woodlandsmuseum.shtml"]
+  noImageUrl = "http://www.mhs.mb.ca/docs/sites/images/nophoto.jpg"
 
   def __init__(self):
     try:
         #self.allMunicipality = []
-        self.allTypes = ["Building", "Cemetery", "Featured+site","Location","Monument","Museum%2FArchives", "Other"]
+        self.allTypes = ["Building", "Cemetery","Location","Monument","Museum%2FArchives", "Other"]
         self.allSites = []
         self.saveImages = True
         self.errorCount = 0
         self.badSites = []
+        self.lastSiteID = 1000
 
 
     except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/init: %s", error)
-
-
-  # def get_all_varibles(self):
-  #     """Gets the Municipality and site types used """
-  #     #Now unsed
-  #     try:
-  #       page = requests.get(self.get_url("", ""))
-  #       soup = BeautifulSoup(page.content, "html.parser")
-  #       try:
-  #         fetchedMuni = soup.find("select", id="m-name")
-  #         for muni in fetchedMuni.stripped_strings:
-  #           if muni != "*ALL*":
-  #             self.allMunicipality.append(muni.replace(" ", "+"))
-  #       except Exception as error:
-  #           self.logger.error("ManitobaHistoricalScrapper/get_all_varibles/Get Municipality: %s", error)
-  #           self.errorCount += 1
-
-  #       try:
-  #         fetchedType = soup.find("select", id="st-name")
-  #         for type in fetchedType.stripped_strings:
-  #           if type != "*ALL*":
-  #             self.allTypes.append(type.replace(" ", "+").replace("/", "%2F"))
-  #       except Exception as error:
-  #           self.logger.error("ManitobaHistoricalScrapper/get_all_varibles/Get Types: %s", error)
-  #           self.errorCount += 1
-
-  #     except Exception as error:
-  #           self.logger.error("ManitobaHistoricalScrapper/get_all_varibles: %s", error)
-  #           self.errorCount += 1
 
   def check_if_duplicate_site(self, siteURL, siteType):
     """Checks if the site has already been processed. Reason being a site with multiple types would be added twice. This way, it will instead add the new type to the existing entry in  allSites"""
@@ -91,9 +65,24 @@ class ManitobaHistoricalScrapper():
             self.errorCount += 1
     return duplicate
 
+  def save_image(self, imageUrl, fileName):
+    """Saves the image to the Site_Images folder"""
+    try:
+      if self.saveImages:
+        img_data = requests.get(self.noImageUrl).content
+        imagePath = join(dirname(abspath(__file__)), "Site_Images", fileName)
+        with open(imagePath, 'wb') as handler:
+          handler.write(img_data)
+    except Exception as error:
+        self.logger.error("ManitobaHistoricalScrapper/save_image: %s", error)
+        self.errorCount += 1
+
+
   def get_all_sites(self):
      """Gets all sites"""
+
      try:
+        self.save_image(self.noImageUrl, self.noImageUrl.split("/")[-1])
         for siteType in self.allTypes:
            self.get_all_site_links_for_type(siteType)
 
@@ -151,6 +140,8 @@ class ManitobaHistoricalScrapper():
   def fetch_site_info(self, siteName, siteURL, siteMuni, siteAddress, siteType):
     """Gets the site information and save it to a dictionary"""
     startError = self.errorCount
+    #way to id the sites fo easier lookup
+    currentSiteId = self.lastSiteID + 1
     try:
       page = requests.get(siteURL)
       soup = BeautifulSoup(page.content, "html.parser")
@@ -224,29 +215,20 @@ class ManitobaHistoricalScrapper():
                   else:
                      img_full_url = self.baseSiteImageUrl + picName
 
-                  # if "features/" in picLink:
-                  #    img_full_url = self.baseFeatureImageURL + picLink.split("features/")[1]
-                  # else:
-                  #   img_full_url = self.baseSiteImageUrl + picName
-
-                  img_data = requests.get(img_full_url).content
-
-
-                  #get image name with unique timestamp, downloads to folder
-                  #fileName = picLink[picLink.find('images/')+7 : picLink.find('.')] + "_" + str(calendar.timegm(time.gmtime())) + "." + picLink.split(".")[1]
-                  firstPartOfName = siteURL.split("/")[-1]
-                  fileName =  firstPartOfName.split(".")[1] + "-" + picName.split(".")[0] + "_" + str(calendar.timegm(time.gmtime())) + "." + picName.split(".")[1]
-                  imagePath = join(dirname(abspath(__file__)), "Site_Images", fileName)
-                  if self.saveImages:
-                    with open(imagePath, 'wb') as handler:
-                        handler.write(img_data)
+                  #Added logic so that it only downloads a new image if it isn't the "nophoto" image
+                  if img_full_url != self.noImageUrl:
+                    #firstPartOfName = (siteURL.split("/")[-1]).replace("shtml-", "")
+                    fileName = str(currentSiteId) + "_" + picName.split(".")[0] + "_" + str(calendar.timegm(time.gmtime())) + "." + picName.split(".")[1]
+                    self.save_image(img_full_url, fileName)
+                  else:
+                     fileName = self.noImageUrl.split("/")[-1]
               except Exception as error:
                 if startError == self.errorCount:
                   self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Download Image:  %s \nUrl: " + siteURL + "\n", error)
                 self.errorCount += 1
 
           elif picLink != None and row.text != '\n':
-             sitePictures.append(dict(link = img_full_url, name = fileName, info = row.text))
+             sitePictures.append(( currentSiteId, fileName, img_full_url, row.text, datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
              picLink = None
              fileName = None
 
@@ -273,7 +255,7 @@ class ManitobaHistoricalScrapper():
               #If end of sources, exit loop
               if "This page was" in currentSource.text and "prepared by" in currentSource.text:
                 break
-              siteSources.append(dict(info = currentSource.text))
+              siteSources.append(( currentSiteId, currentSource.text,  datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
               #Get next source
               currentSource = currentSource.find_next_sibling('p')
             except Exception as error:
@@ -300,7 +282,8 @@ class ManitobaHistoricalScrapper():
       if self.errorCount > startError:
        self.badSites.append(siteURL)
       else:
-        self.allSites.append(dict(site_name = siteName, types = firstType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
+        self.allSites.append(dict(site_id = currentSiteId, site_name = siteName, types = firstType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
+        self.lastSiteID = currentSiteId
     except Exception as error:
             if startError == self.errorCount:
               self.logger.error("ManitobaHistoricalScrapper/fetch_site_info: %s \nUrl: " + siteURL + "\n", error)
@@ -329,20 +312,21 @@ if __name__ == "__main__":
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
     logger.info("Application Historical Society Scrapper Started")
-    startTime = datetime.datetime.now()
+    startTime = datetime.today()
     siteScraper = ManitobaHistoricalScrapper()
-    siteScraper.saveImages = False
+    #siteScraper.saveImages = False
 
     #print(siteScraper.allMunicipality)
     #print(siteScraper.allTypes)
     #asyncio.run(siteScraper.get_all_site_links_for_type("Museum%2FArchives"))
-    #siteScraper.get_all_site_links_for_type("Museum%2FArchives")
+
     #siteScraper.fetch_site_info("St. John Ukrainian Greek Orthodox Church and Cemetery", "http://www.mhs.mb.ca/docs/sites/gabrielleroyhouse.shtml", "Alexander", "Stead", "Building")
     #print(siteScraper.allSites[0]["site_name"])
     print("Start fetching data at " + str(startTime))
-    #siteScraper.get_all_sites()
-    siteScraper.get_all_site_links_for_type("Building")
-    endTime = datetime.datetime.now()
+    #siteScraper.get_all_site_links_for_type("Museum%2FArchives")
+    siteScraper.get_all_sites()
+    #siteScraper.get_all_site_links_for_type("Building")
+    endTime = datetime.today()
 
     print("# of error fetching data: " + str(siteScraper.errorCount))
     print("# of bad sites " + str(len(siteScraper.badSites)))
