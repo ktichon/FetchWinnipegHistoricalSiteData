@@ -13,7 +13,7 @@ class DBOperations:
 
     def __init__(self):
         """Initializes varibles that will be used throught the class"""
-        self.database = "historicalSiteData.sqlite"
+        self.database = "historicalSiteData.db"
 
 
     def initialize_db(self):
@@ -21,54 +21,54 @@ class DBOperations:
         with DBCM(self.database) as cursor:
             try:
                 cursor.execute("""create table if not exists winnipegHistoricalSite
-                (site_id integer primary key autoincrement not null,
-                name text,
-                streetName text,
-                streetNumber text,
-                constructionDate text,
-                shortUrl text,
-                longUrl text,
-                latitude real,
-                longitude real,
-                city text,
-                province text,
-                import_date text
+                (site_id INTEGER primary key autoincrement not null,
+                name TEXT,
+                streetName TEXT,
+                streetNumber TEXT,
+                constructionDate TEXT,
+                shortUrl TEXT,
+                longUrl TEXT,
+                latitude REAL,
+                longitude REAL,
+                city TEXT,
+                province TEXT,
+                import_date TEXT
                 );""")
 
                 cursor.execute("""create table if not exists manitobaHistoricalSite
-                (site_id integer primary key not null,
-                name text,
-                address text,
-                latitude real,
-                longitude real,
-                province text,
-                municipality text,
-                description text,
-                site_url text,
-                import_date text
+                (site_id INTEGER primary key not null,
+                name TEXT,
+                address TEXT,
+                latitude REAL not null,
+                longitude REAL not null,
+                province TEXT,
+                municipality TEXT,
+                description TEXT,
+                site_url TEXT,
+                import_date TEXT
                 );""")
 
                 cursor.execute("""create table if not exists sitePhotos
-                (photo_id integer primary key autoincrement not null,
-                site_id int,
-                photo_name text,
-                photo_url text,
-                info text,
-                import_date text
+                (photo_id INTEGER primary key autoincrement not null,
+                site_id INTEGER,
+                photo_name TEXT,
+                photo_url TEXT,
+                info TEXT,
+                import_date TEXT
                 );""")
 
                 cursor.execute("""create table if not exists siteSource
-                (source_id integer primary key autoincrement not null,
-                site_id int,
-                info text,
-                import_date text
+                (source_id INTEGER primary key autoincrement not null,
+                site_id INTEGER,
+                info TEXT,
+                import_date TEXT
                 );""")
 
                 cursor.execute("""create table if not exists siteType
-                (siteType_id integer primary key autoincrement not null,
-                site_id int,
-                type text,
-                import_date text
+                (siteType_id INTEGER primary key autoincrement not null,
+                site_id INTEGER,
+                type TEXT,
+                import_date TEXT
                 );""")
             except Exception as error:
                 self.logger.error('DBOperations/initialize_db: %s', error)

@@ -1,0 +1,168 @@
+municipality
+Winnipeg
+Riding Mountain National Park
+Morden
+Armstrong
+Carberry
+Brandon
+Carman
+Grassland
+Whitehead
+Virden
+WestLake-Gladstone
+Dunnottar
+Minto-Odanah
+Woodlands
+Swan River
+Grandview
+Rockwood
+Prairie Lakes
+Alonsa
+Swan Valley West
+Lorne
+Rhineland
+Altona
+Elton
+Morris (RM)
+Stonewall
+Riding Mountain West
+Springfield
+Arborg
+Pembina
+Northern Manitoba
+Glenella-Lansdowne
+St. Andrews
+Rossburn
+Boissevain-Morton
+Portage la Prairie (City)
+Emerson-Franklin
+Gimli
+Wallace-Woodworth
+Two Borders
+Mossey River
+Mountain
+Stuartburn
+Steinbach
+West Interlake
+Macdonald
+Sifton
+Gilbert Plains
+Russell-Binscarth
+Harrison Park
+De Salaberry
+Grahamdale
+North Cypress-Langford
+North Norfolk
+Souris-Glenwood
+Cartwright-Roblin
+Piney
+Roland
+Argyle
+St. Clements
+Pipestone
+Grey
+Minnedosa
+St-Pierre-Jolys
+Ethelbert
+Dauphin (RM)
+Hanover
+Killarney-Turtle Mountain
+Hamiota
+Beausejour
+Neepawa
+Reynolds
+Selkirk
+Portage la Prairie (RM)
+Clanwilliam-Erickson
+Norfolk Treherne
+Hecla-Grindstone Provincial Park
+East St. Paul
+Rosedale
+Prairie View
+The Pas
+Oakview
+Cartier
+Ritchot
+Yellowhead
+Flin Flon
+Lakeshore
+Dauphin (City)
+Minitonas-Bowsman
+Cornwallis
+Lac du Bonnet (RM)
+Alexander
+Brokenhead
+Buffalo Point First Nation
+Brenda-Waskada
+Glenboro-South Cypress
+Victoria
+Coldwell
+Riverdale
+Lynn Lake
+Gillam
+Victoria Beach
+Thompson (City)
+Roblin
+Churchill
+Thompson (RM)
+Kelsey
+McCreary
+Fisher
+Ellice-Archie
+Morris (Town)
+Deloraine-Winchester
+Bifrost-Riverton
+Winkler
+St. Francois Xavier
+Oakland-Wawanesa
+`
+Winnipeg Beach
+Stanley
+Melita
+Sagkeeng First Nation
+Ste. Anne (RM)
+Louise
+Whiteshell Provincial Park
+Montcalm
+Ste. Rose
+Powerview-Pine Falls
+Tache
+Rosser
+Whitemouth
+None
+Pinawa
+Teulon
+Grand Rapids
+Dufferin
+Headingley
+Leaf Rapids
+La Broquerie
+West St. Paul
+Niverville
+Snow Lake
+Lac du Bonnet (Town)
+St. Laurent
+Ste. Anne (Town)
+Black River First Nation
+Misipawistik Cree Nation
+Tataskweyak Cree Nation
+Peguis First Nation
+Brokenhead Ojibway Nation
+O-Chi-Chak-Ko-Sipi First Nation
+Opaskwayak Cree Nation
+Fisher River Cree Nation
+Lake Manitoba First Nation
+Swan Lake First Nation
+Southeastern Manitoba
+USA
+Gypsumville
+Fox Lake Cree Nation
+Gambler First Nation
+Pine Creek First Nation
+Spruce Woods Provincial Park
+Roseau River First Nation
+Eastern Manitoba
+Sioux Valley Dakota Nation
+Northwest Angle Provincial Forest
+Atikaki Provincial Park
+Woodridge Provincial Park

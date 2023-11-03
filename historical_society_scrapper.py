@@ -14,6 +14,8 @@ import calendar
 import time
 import asyncio
 
+from fetch_site_data import FetchSiteDate
+
 from database_operations import DBOperations
 
 
@@ -69,7 +71,7 @@ class ManitobaHistoricalScrapper():
     """Saves the image to the Site_Images folder"""
     try:
       if self.saveImages:
-        img_data = requests.get(self.noImageUrl).content
+        img_data = requests.get(imageUrl).content
         imagePath = join(dirname(abspath(__file__)), "Site_Images", fileName)
         with open(imagePath, 'wb') as handler:
           handler.write(img_data)
@@ -302,6 +304,7 @@ class ManitobaHistoricalScrapper():
 
 
 if __name__ == "__main__":
+    runStart = datetime.today()
     logger = logging.getLogger("main")
     logger.setLevel(logging.DEBUG)
     file_handler = logging.handlers.RotatingFileHandler(filename="historical_society_scrapper.log",
@@ -332,12 +335,28 @@ if __name__ == "__main__":
     print("# of bad sites " + str(len(siteScraper.badSites)))
     print("Completed fetching data at " + str(endTime))
     print("Time it took to fetch data: " + str(endTime - startTime))
+    print("Fetching Winnipeg Data")
+    startTime = datetime.today()
+    print("Start fetching data at " + str(startTime))
+    fetchData = FetchSiteDate()
+    processedData = fetchData.fetch_from_winnipeg_api()
+    endTime = datetime.today()
+    print("Completed fetching data at " + str(endTime))
+    print("Time it took to fetch data: " + str(endTime - startTime))
 
     logger.info("Insert Data into Database")
+    startTime = datetime.today()
+    print("Started data operations at " + str(startTime))
+
     database = DBOperations()
     database.initialize_db()
     database.purge_data()
     database.manitoba_historical_website_save_data(siteScraper.allSites)
+    database.winnipeg_api_save_data(processedData)
+    endTime = datetime.today()
+    print("Completed data operations at " + str(endTime))
+    print("Time it took to complete data operations : " + str(endTime - startTime))
+    print("Total run time " + str(datetime.today() - runStart))
 
 
 
