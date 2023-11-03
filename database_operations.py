@@ -28,8 +28,8 @@ class DBOperations:
                 constructionDate TEXT,
                 shortUrl TEXT,
                 longUrl TEXT,
-                latitude REAL,
-                longitude REAL,
+                latitude REAL not null,
+                longitude REAL not null,
                 city TEXT,
                 province TEXT,
                 import_date TEXT
@@ -50,7 +50,7 @@ class DBOperations:
 
                 cursor.execute("""create table if not exists sitePhotos
                 (photo_id INTEGER primary key autoincrement not null,
-                site_id INTEGER,
+                site_id INTEGER not null,
                 photo_name TEXT,
                 photo_url TEXT,
                 info TEXT,
@@ -59,14 +59,14 @@ class DBOperations:
 
                 cursor.execute("""create table if not exists siteSource
                 (source_id INTEGER primary key autoincrement not null,
-                site_id INTEGER,
+                site_id INTEGER not null,
                 info TEXT,
                 import_date TEXT
                 );""")
 
                 cursor.execute("""create table if not exists siteType
                 (siteType_id INTEGER primary key autoincrement not null,
-                site_id INTEGER,
+                site_id INTEGER not null,
                 type TEXT,
                 import_date TEXT
                 );""")
