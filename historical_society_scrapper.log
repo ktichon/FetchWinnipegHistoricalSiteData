@@ -1,0 +1,2065 @@
+2023-11-15 09:49:54,629 - main - INFO - Application Historical Society Scrapper Started
+2023-11-15 09:49:57,410 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aberrapartments.shtml
+
+2023-11-15 09:49:57,629 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aquillaapartments.shtml
+
+2023-11-15 09:49:57,859 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/academyroadservice.shtml
+
+2023-11-15 09:49:58,818 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/acadiaapartments.shtml
+
+2023-11-15 09:49:59,187 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/accountantsresidence.shtml
+
+2023-11-15 09:49:59,681 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/achesonbuilding.shtml
+
+2023-11-15 09:49:59,924 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/acklandhouse.shtml
+
+2023-11-15 09:50:00,796 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/adamschool.shtml
+
+2023-11-15 09:50:01,082 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/adanacapartments.shtml
+
+2023-11-15 09:50:01,542 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/adasyeshurunsynagogue.shtml
+
+2023-11-15 09:50:01,864 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/adelaideblock.shtml
+
+2023-11-15 09:50:02,175 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/gardinerbuilding.shtml
+
+2023-11-15 09:50:03,254 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aemckenziebuilding.shtml
+
+2023-11-15 09:50:03,643 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/agassizdriveschool.shtml
+
+2023-11-15 09:50:03,899 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/agnesapartments.shtml
+
+2023-11-15 09:50:04,004 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/agriculturalcollegebarn.shtml
+
+2023-11-15 09:50:04,883 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/umpowerhouse.shtml
+
+2023-11-15 09:50:05,528 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/agengineeringbuilding.shtml
+
+2023-11-15 09:50:05,769 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/agriculturebuilding.shtml
+
+2023-11-15 09:50:06,460 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/agriculturelectureblock.shtml
+
+2023-11-15 09:50:06,736 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/pritchardcourt.shtml
+
+2023-11-15 09:50:07,822 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/balmoralhall.shtml
+
+2023-11-15 09:50:08,159 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alamedacourt.shtml
+
+2023-11-15 09:50:08,449 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alaskabeddingwarehouse.shtml
+
+2023-11-15 09:50:08,845 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/albermarleapartments.shtml
+
+2023-11-15 09:50:09,524 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carmanunited.shtml
+
+2023-11-15 09:50:09,905 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/albrightmemorial.shtml
+
+2023-11-15 09:50:10,213 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alcaldeapartments.shtml
+
+2023-11-15 09:50:10,491 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alcesterschool.shtml
+
+2023-11-15 09:50:10,855 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aldingerhouse.shtml
+
+2023-11-15 09:50:11,316 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aldousbuilding.shtml
+
+2023-11-15 09:50:11,658 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aldousannex.shtml
+
+2023-11-15 09:50:12,026 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aleknoblock.shtml
+
+2023-11-15 09:50:12,128 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/alexanderbarn.shtml
+
+2023-11-15 09:50:12,371 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alexanderblock.shtml
+
+2023-11-15 09:50:12,599 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alexanderpostoffice.shtml
+
+2023-11-15 09:50:12,914 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alexanderunited.shtml
+
+2023-11-15 09:50:13,563 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alexanderrossschool.shtml
+
+2023-11-15 09:50:14,137 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/albertblock.shtml
+
+2023-11-15 09:50:15,314 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/mariaggihotel.shtml
+
+2023-11-15 09:50:16,143 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alexandrahotel.shtml
+
+2023-11-15 09:50:17,169 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alexandraschoolbrandon.shtml
+
+2023-11-15 09:50:17,998 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alfhollcourt.shtml
+
+2023-11-15 09:50:18,375 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/sidsgarage.shtml
+
+2023-11-15 09:50:19,650 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alhambraapartments.shtml
+
+2023-11-15 09:50:19,869 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allenbuilding.shtml
+
+2023-11-15 09:50:20,225 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allisonapartments.shtml
+
+2023-11-15 09:50:20,824 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allmanblock.shtml
+
+2023-11-15 09:50:21,135 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allowaychampionbuilding.shtml
+
+2023-11-15 09:50:21,701 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allowaybuilding.shtml
+
+2023-11-15 09:50:21,937 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allowaycourt.shtml
+
+2023-11-15 09:50:22,221 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allpeoplesmission.shtml
+
+2023-11-15 09:50:22,415 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allpeoplesmissionstella.shtml
+
+2023-11-15 09:50:22,960 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allsaintsanglicangladstone.shtml
+
+2023-11-15 09:50:23,611 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/whytewoldanglican.shtml
+
+2023-11-15 09:50:24,625 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allsaintsanglicanwinnipeg.shtml
+
+2023-11-15 09:50:25,241 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allsaintsanglican.shtml
+
+2023-11-15 09:50:26,817 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allsaintsanglicanerinview.shtml
+
+2023-11-15 09:50:27,297 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allsaintsswanriver.shtml
+
+2023-11-15 09:50:27,784 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allsaintswinnipeg.shtml
+
+2023-11-15 09:50:28,345 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/grandviewukorthodox.shtml
+
+2023-11-15 09:50:28,803 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allsaintsvictoria.shtml
+
+2023-11-15 09:50:29,344 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/allsoulsunitarian.shtml
+
+2023-11-15 09:50:29,696 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/almaapartments.shtml
+
+2023-11-15 09:50:30,512 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/almaschool.shtml
+
+2023-11-15 09:50:31,545 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/almonteapartments.shtml
+
+2023-11-15 09:50:31,842 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alonsaunited.shtml
+
+2023-11-15 09:50:32,402 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alpineschool.shtml
+
+2023-11-15 09:50:32,871 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alpinecemetery.shtml
+
+2023-11-15 09:50:33,233 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alsiphouse.shtml
+
+2023-11-15 09:50:33,484 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/altamonthotel.shtml
+
+2023-11-15 09:50:33,828 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/altamontunited.shtml
+
+2023-11-15 09:50:35,080 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/altbergthalschool.shtml
+
+2023-11-15 09:50:35,328 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/altonaarchives.shtml
+
+2023-11-15 09:50:36,276 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bergthalerchurchaltona.shtml
+
+2023-11-15 09:50:36,697 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/westparkschool.shtml
+
+2023-11-15 09:50:37,173 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alverstoneapartments.shtml
+
+2023-11-15 09:50:37,659 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/alyngraecottage.shtml
+
+2023-11-15 09:50:38,121 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/amaranthcollegiate.shtml
+
+2023-11-15 09:50:38,542 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/amaranthunited.shtml
+
+2023-11-15 09:50:39,633 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/americanhidefurbuilding.shtml
+
+2023-11-15 09:50:39,906 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/americansodawaterfactory.shtml
+
+2023-11-15 09:50:40,814 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/amesholdenmccreadybuilding.shtml
+
+2023-11-15 09:50:41,131 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/amherstapartments.shtml
+
+2023-11-15 09:50:41,359 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/amuletapartments.shtml
+
+2023-11-15 09:50:41,819 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/andersonbarn.shtml
+
+2023-11-15 09:50:42,250 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/andersonhouse.shtml
+
+2023-11-15 09:50:42,540 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/andersonhouse2.shtml
+
+2023-11-15 09:50:43,013 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/andrewmynarskischool.shtml
+
+2023-11-15 09:50:43,412 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/andrewshouse.shtml
+
+2023-11-15 09:50:44,154 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ralphbrownschool.shtml
+
+2023-11-15 09:50:44,768 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/churchoftheascension.shtml
+
+2023-11-15 09:50:45,111 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/gladstoneanglicanrectory.shtml
+
+2023-11-15 09:50:45,393 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/angusmckayschool.shtml
+
+2023-11-15 09:50:45,931 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/angusschool.shtml
+
+2023-11-15 09:50:46,183 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/angusvillemunicipalbuilding.shtml
+
+2023-11-15 09:50:46,630 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/annebuilding.shtml
+
+2023-11-15 09:50:47,151 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blueribbonbuilding.shtml
+
+2023-11-15 09:50:48,818 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/skylakechurch.shtml
+
+2023-11-15 09:50:49,478 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/anokacourt.shtml
+
+2023-11-15 09:50:50,280 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/anolamuseum.shtml
+
+2023-11-15 09:50:51,001 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/anolaschool.shtml
+
+2023-11-15 09:50:51,607 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/anversapartments.shtml
+
+2023-11-15 09:50:53,788 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arborgmuseum.shtml
+
+2023-11-15 09:50:54,077 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arborgcollegiate.shtml
+
+2023-11-15 09:50:54,573 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arborgunitarian.shtml
+
+2023-11-15 09:50:54,836 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/arbuthnothouse.shtml
+
+2023-11-15 09:50:55,185 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/archbishopresidence.shtml
+
+2023-11-15 09:50:55,680 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/tachehouse.shtml
+
+2023-11-15 09:50:56,595 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/archibaldmuseum.shtml
+
+2023-11-15 09:50:57,799 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/warehouseremains.shtml
+
+2023-11-15 09:50:58,197 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/archwoodschool.shtml
+
+2023-11-15 09:50:59,594 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ardenconcretehouse.shtml
+
+2023-11-15 09:51:00,218 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ardenpostoffice.shtml
+
+2023-11-15 09:51:00,578 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arguehouse.shtml
+
+2023-11-15 09:51:01,087 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/argyleblock.shtml
+
+2023-11-15 09:51:02,039 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/argylegeneralstore.shtml
+
+2023-11-15 09:51:02,886 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/argyleschool.shtml
+
+2023-11-15 09:51:03,252 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arlingtongrocery.shtml
+
+2023-11-15 09:51:03,646 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/armadalecottage.shtml
+
+2023-11-15 09:51:03,987 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/armisticeschool.shtml
+
+2023-11-15 09:51:04,092 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/armstrongbarn.shtml
+
+2023-11-15 09:51:04,901 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/armstrongfarm.shtml
+
+2023-11-15 09:51:05,726 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/armstronghouse.shtml
+
+2023-11-15 09:51:06,164 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/armstronghouse2.shtml
+
+2023-11-15 09:51:06,606 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/armstronghousedundurn.shtml
+
+2023-11-15 09:51:07,346 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arnaudunited.shtml
+
+2023-11-15 09:51:07,622 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arneshall.shtml
+
+2023-11-15 09:51:08,177 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arnesfishplant.shtml
+
+2023-11-15 09:51:08,584 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arneslutheran.shtml
+
+2023-11-15 09:51:09,213 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arnessouthschool.shtml
+
+2023-11-15 09:51:09,612 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aronovitchleipsicbuilding.shtml
+
+2023-11-15 09:51:10,303 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/pleasantplainsschool.shtml
+
+2023-11-15 09:51:10,615 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arthuraleachschool.shtml
+
+2023-11-15 09:51:13,877 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arthurdayschool.shtml
+
+2023-11-15 09:51:14,162 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arthurmeighenschool.shtml
+
+2023-11-15 09:51:14,558 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arthurschool.shtml
+
+2023-11-15 09:51:15,424 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/tierbuilding.shtml
+
+2023-11-15 09:51:16,076 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/asacourt.shtml
+
+2023-11-15 09:51:16,740 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ascensionchurchmosseyriver.shtml
+
+2023-11-15 09:51:17,402 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/pulpriverukrainiancatholic.shtml
+
+2023-11-15 09:51:18,284 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/sundownukrainiancatholic.shtml
+
+2023-11-15 09:51:19,852 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/asessippi.shtml
+
+2023-11-15 09:51:20,247 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/friesenmachineworks.shtml
+
+2023-11-15 09:51:21,022 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ashdownbuilding.shtml
+
+2023-11-15 09:51:21,598 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ashdownhouse2.shtml
+
+2023-11-15 09:51:21,948 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ashdownhouse.shtml
+
+2023-11-15 09:51:22,329 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ashdownhouse3.shtml
+
+2023-11-15 09:51:23,254 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ashdownwarehouse.shtml
+
+2023-11-15 09:51:24,447 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ashernmuseum.shtml
+
+2023-11-15 09:51:24,865 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ashernunitedcemetery.shtml
+
+2023-11-15 09:51:25,118 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ashlandcourt.shtml
+
+2023-11-15 09:51:25,574 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ashlandschool.shtml
+
+2023-11-15 09:51:26,326 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/sanfordschool.shtml
+
+2023-11-15 09:51:27,920 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/asileritchot.shtml
+
+2023-11-15 09:51:28,703 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/asquithschool.shtml
+
+2023-11-15 09:51:28,936 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/assiniboiachristiancentre.shtml
+
+2023-11-15 09:51:29,723 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/stjamesassiniboiamuseum.shtml
+
+2023-11-15 09:51:30,074 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/assiniboinecourt.shtml
+
+2023-11-15 09:51:30,981 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/assiniboineparkpavilion.shtml
+
+2023-11-15 09:51:31,445 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/assiniboineschooloaklake.shtml
+
+2023-11-15 09:51:32,410 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/assiniboineschool.shtml
+
+2023-11-15 09:51:33,105 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/assiniboineschool2.shtml
+
+2023-11-15 09:51:33,828 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ourladyrcgilbertplains.shtml
+
+2023-11-15 09:51:34,689 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blessedvirginmaryzhoda.shtml
+
+2023-11-15 09:51:35,120 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/stmarysrussell.shtml
+
+2023-11-15 09:51:35,670 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/virginmaryukrainiancatholic.shtml
+
+2023-11-15 09:51:36,641 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/zbruchvirginmarychurch.shtml
+
+2023-11-15 09:51:37,394 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ukrainiangreekorthodoxdufrost.shtml
+
+2023-11-15 09:51:37,686 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/winnipegosisukorthodox.shtml
+
+2023-11-15 09:51:37,940 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/winnipegosisukrainiancatholic.shtml
+
+2023-11-15 09:51:38,999 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/astonvillaschool.shtml
+
+2023-11-15 09:51:39,251 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/astoriaapartments.shtml
+
+2023-11-15 09:51:39,361 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/athloneschool.shtml
+
+2023-11-15 09:51:39,769 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/atlanticgardencityunited.shtml
+
+2023-11-15 09:51:40,106 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/auburnschool.shtml
+
+2023-11-15 09:51:40,529 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/craigavonapartments.shtml
+
+2023-11-15 09:51:41,582 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/audyschool.shtml
+
+2023-11-15 09:51:42,172 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/augdonhouse.shtml
+
+2023-11-15 09:51:43,028 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/augustineunited.shtml
+
+2023-11-15 09:51:43,330 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aulablock.shtml
+
+2023-11-15 09:51:43,669 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aurorablock.shtml
+
+2023-11-15 09:51:43,773 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/austincollegiate.shtml
+
+2023-11-15 09:51:44,072 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/avalontheatre.shtml
+
+2023-11-15 09:51:44,430 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/avenuebuilding.shtml
+
+2023-11-15 09:51:44,676 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/averycourt.shtml
+
+2023-11-15 09:51:45,028 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/aynsleycourt.shtml
+
+2023-11-15 09:51:45,656 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cartwrightheritagepark.shtml
+
+2023-11-15 09:51:46,166 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/badgergeneralstore.shtml
+
+2023-11-15 09:51:46,478 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/badgerschool.shtml
+
+2023-11-15 09:51:46,938 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/gunnsbakery.shtml
+
+2023-11-15 09:51:47,698 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/baileybickleblock.shtml
+
+2023-11-15 09:51:48,110 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/baileybuilding.shtml
+
+2023-11-15 09:51:48,347 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bairdmoreschool.shtml
+
+2023-11-15 09:51:48,567 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bakerblock.shtml
+
+2023-11-15 09:51:48,888 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/baldurschool2.shtml
+
+2023-11-15 09:51:49,343 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/baldurunited.shtml
+
+2023-11-15 09:51:49,667 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/baldwinapartments.shtml
+
+2023-11-15 09:51:50,262 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/balfourhouse.shtml
+
+2023-11-15 09:51:50,685 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cathedralcourta.shtml
+
+2023-11-15 09:51:51,037 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cathedralcourtb.shtml
+
+2023-11-15 09:51:51,488 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/balmoralcourt.shtml
+
+2023-11-15 09:51:51,937 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/balmoralhallrockwood.shtml
+
+2023-11-15 09:51:52,361 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/balmoralunited.shtml
+
+2023-11-15 09:51:53,342 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/balsambayschool.shtml
+
+2023-11-15 09:51:53,687 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/balticapartments.shtml
+
+2023-11-15 09:51:54,270 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bancrofthouse.shtml
+
+2023-11-15 09:51:54,558 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankbritishnorthamericareston.shtml
+
+2023-11-15 09:51:54,973 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankbritishnorthamerica.shtml
+
+2023-11-15 09:51:55,397 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofhamilton.shtml
+
+2023-11-15 09:51:56,013 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofhamiltonstonewall.shtml
+
+2023-11-15 09:51:57,054 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofhamiltonelmcreek.shtml
+
+2023-11-15 09:51:57,557 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/roland4hmuseum.shtml
+
+2023-11-15 09:51:58,457 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/taylorbuilding2.shtml
+
+2023-11-15 09:51:58,953 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/banquedhochelaga.shtml
+
+2023-11-15 09:51:59,183 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/nationalbankstpierre.shtml
+
+2023-11-15 09:51:59,949 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofmontrealwinnipeg.shtml
+
+2023-11-15 09:52:00,137 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofmontrealethelbert.shtml
+
+2023-11-15 09:52:00,461 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofmontrealstradbrook.shtml
+
+2023-11-15 09:52:00,686 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofmontrealwinnipeg2.shtml
+
+2023-11-15 09:52:00,995 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofmontrealportage.shtml
+
+2023-11-15 09:52:01,448 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofmontrealbrandon.shtml
+
+2023-11-15 09:52:02,028 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofmontrealbelmont.shtml
+
+2023-11-15 09:52:02,272 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofmontrealgladstone.shtml
+
+2023-11-15 09:52:02,753 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofmontrealelmwood.shtml
+
+2023-11-15 09:52:03,138 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofmontrealhouse.shtml
+
+2023-11-15 09:52:03,653 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofnovascotia.shtml
+
+2023-11-15 09:52:04,178 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/banktoronto.shtml
+
+2023-11-15 09:52:04,470 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankoftorontoacademy.shtml
+
+2023-11-15 09:52:04,863 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankoftorontosherbrook.shtml
+
+2023-11-15 09:52:05,203 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankoftorontocartwright.shtml
+
+2023-11-15 09:52:05,545 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankoftorontobenito.shtml
+
+2023-11-15 09:52:06,718 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/transconamuseum.shtml
+
+2023-11-15 09:52:07,180 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/banksschool.shtml
+
+2023-11-15 09:52:07,532 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bannatyneapartments.shtml
+
+2023-11-15 09:52:08,047 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/barberhouse.shtml
+
+2023-11-15 09:52:08,387 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/barclaybuilding.shtml
+
+2023-11-15 09:52:08,610 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bardalblock.shtml
+
+2023-11-15 09:52:09,331 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/sommerfeldschool.shtml
+
+2023-11-15 09:52:09,903 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/barkfieldschool.shtml
+
+2023-11-15 09:52:10,160 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/barkwellhouse.shtml
+
+2023-11-15 09:52:10,406 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/barongrocery.shtml
+
+2023-11-15 09:52:11,049 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bartelbarn.shtml
+
+2023-11-15 09:52:11,391 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bartellacourt.shtml
+
+2023-11-15 09:52:12,143 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bathgateblock.shtml
+
+2023-11-15 09:52:12,678 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bathgatehouse.shtml
+
+2023-11-15 09:52:13,125 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bathgatehouse2.shtml
+
+2023-11-15 09:52:13,407 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bawlfblock.shtml
+
+2023-11-15 09:52:14,519 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/mcconnellelevator2.shtml
+
+2023-11-15 09:52:15,149 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bawlfbuilding.shtml
+
+2023-11-15 09:52:15,430 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bayviewapartments.shtml
+
+2023-11-15 09:52:17,061 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beaconsfieldmethodist.shtml
+
+2023-11-15 09:52:17,657 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beatriceschool.shtml
+
+2023-11-15 09:52:17,886 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beattiehouse.shtml
+
+2023-11-15 09:52:18,298 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beaumontschool.shtml
+
+2023-11-15 09:52:18,545 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/stjosephsbeausejour.shtml
+
+2023-11-15 09:52:18,964 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beausejourhotel.shtml
+
+2023-11-15 09:52:19,294 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/stpaulsunitedbeausejour.shtml
+
+2023-11-15 09:52:19,404 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beautifulplainsarchives.shtml
+
+2023-11-15 09:52:20,068 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beautifulplainscountycourt.shtml
+
+2023-11-15 09:52:20,471 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beautyparkschool.shtml
+
+2023-11-15 09:52:20,758 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beaverlodgeschool.shtml
+
+2023-11-15 09:52:21,006 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/becherhouse.shtml
+
+2023-11-15 09:52:21,472 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/becketthouse.shtml
+
+2023-11-15 09:52:21,948 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beckoninghillsmuseum.shtml
+
+2023-11-15 09:52:22,798 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bedeschool.shtml
+
+2023-11-15 09:52:23,055 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bedsonschool.shtml
+
+2023-11-15 09:52:23,278 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beehivebuilding.shtml
+
+2023-11-15 09:52:23,702 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/belcherhouse.shtml
+
+2023-11-15 09:52:24,517 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/belfryschool.shtml
+
+2023-11-15 09:52:24,837 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/belgianclub.shtml
+
+2023-11-15 09:52:25,248 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/garryblock.shtml
+
+2023-11-15 09:52:25,846 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beliveauhouse.shtml
+
+2023-11-15 09:52:26,073 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/collegebeliveau.shtml
+
+2023-11-15 09:52:26,820 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bellblock.shtml
+
+2023-11-15 09:52:27,139 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bellblockbrandon.shtml
+
+2023-11-15 09:52:27,741 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bellcrestblock.shtml
+
+2023-11-15 09:52:28,580 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bellecreekschool.shtml
+
+2023-11-15 09:52:28,853 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/belleviewschoolpipestone.shtml
+
+2023-11-15 09:52:29,241 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bellhotel.shtml
+
+2023-11-15 09:52:29,585 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bellhouse.shtml
+
+2023-11-15 09:52:29,840 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bellriverschool.shtml
+
+2023-11-15 09:52:30,177 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bellroseapartments.shtml
+
+2023-11-15 09:52:30,685 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bellwarehouse.shtml
+
+2023-11-15 09:52:30,878 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/belmontmuseum.shtml
+
+2023-11-15 09:52:31,211 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/knoxunitedbelmont.shtml
+
+2023-11-15 09:52:31,748 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/belmontschool2.shtml
+
+2023-11-15 09:52:32,001 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/belmontschoolwinnipeg.shtml
+
+2023-11-15 09:52:32,793 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/belsesschool.shtml
+
+2023-11-15 09:52:33,084 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/belvidereapartments.shtml
+
+2023-11-15 09:52:33,309 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bemisbagbuilding.shtml
+
+2023-11-15 09:52:33,750 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/benardhouse.shtml
+
+2023-11-15 09:52:34,249 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/benardhouse2.shtml
+
+2023-11-15 09:52:34,551 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/benardhouse4.shtml
+
+2023-11-15 09:52:34,860 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/benardhouse3.shtml
+
+2023-11-15 09:52:35,195 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/benitoanglican.shtml
+
+2023-11-15 09:52:35,588 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/benitounited.shtml
+
+2023-11-15 09:52:35,823 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/drakehotel.shtml
+
+2023-11-15 09:52:36,103 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bensonhouse.shtml
+
+2023-11-15 09:52:36,446 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bentleyapartments.shtml
+
+2023-11-15 09:52:36,657 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/berbankchurch.shtml
+
+2023-11-15 09:52:37,045 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beresfordblock.shtml
+
+2023-11-15 09:52:37,724 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beresfordchurch.shtml
+
+2023-11-15 09:52:38,609 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beresfordschool.shtml
+
+2023-11-15 09:52:39,017 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bereziuksgeneralstore.shtml
+
+2023-11-15 09:52:39,269 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bergmanhouse.shtml
+
+2023-11-15 09:52:39,613 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/berkeleyapartments.shtml
+
+2023-11-15 09:52:39,881 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/berlofarm.shtml
+
+2023-11-15 09:52:40,740 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/berniceschool.shtml
+
+2023-11-15 09:52:41,022 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bernierhouse.shtml
+
+2023-11-15 09:52:41,301 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bernierschool.shtml
+
+2023-11-15 09:52:41,768 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/berryblockreston.shtml
+
+2023-11-15 09:52:42,171 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/berryhouse.shtml
+
+2023-11-15 09:52:42,510 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bessboroughapartments.shtml
+
+2023-11-15 09:52:42,825 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bethanybaptist.shtml
+
+2023-11-15 09:52:43,095 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bethanylutheraninglis.shtml
+
+2023-11-15 09:52:43,429 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bethelchurch.shtml
+
+2023-11-15 09:52:44,387 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bethellutheran.shtml
+
+2023-11-15 09:52:45,122 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bethelcemeterysouthnorfolk.shtml
+
+2023-11-15 09:52:45,750 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/macleanmission.shtml
+
+2023-11-15 09:52:46,467 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bethuneblock.shtml
+
+2023-11-15 09:52:46,822 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bevanhouse.shtml
+
+2023-11-15 09:52:47,120 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beverleyblock.shtml
+
+2023-11-15 09:52:47,476 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bicklecourt.shtml
+
+2023-11-15 09:52:48,012 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bicklehouse.shtml
+
+2023-11-15 09:52:48,266 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bidefordapartments.shtml
+
+2023-11-15 09:52:48,724 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bieldyapartments.shtml
+
+2023-11-15 09:52:49,231 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/heclaislandschool.shtml
+
+2023-11-15 09:52:49,776 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/billymosienkolanes.shtml
+
+2023-11-15 09:52:50,031 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/biltmoreapartments.shtml
+
+2023-11-15 09:52:50,724 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/binscarthtelephone.shtml
+
+2023-11-15 09:52:51,130 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/biollohouse.shtml
+
+2023-11-15 09:52:51,467 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/birchwoodschool.shtml
+
+2023-11-15 09:52:51,687 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/birdshillschool2.shtml
+
+2023-11-15 09:52:51,980 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/birdshillunited.shtml
+
+2023-11-15 09:52:52,448 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/birkenheadapartments.shtml
+
+2023-11-15 09:52:52,871 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/birnieschool.shtml
+
+2023-11-15 09:52:54,705 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/birtleresidentialschool.shtml
+
+2023-11-15 09:52:55,415 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/birtleunited.shtml
+
+2023-11-15 09:52:55,670 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bishopshousethepas.shtml
+
+2023-11-15 09:52:55,904 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/eriksdaleunited.shtml
+
+2023-11-15 09:52:56,347 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bissetthouse.shtml
+
+2023-11-15 09:52:56,873 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bissettunited.shtml
+
+2023-11-15 09:52:57,206 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bittnerblock.shtml
+
+2023-11-15 09:52:58,076 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blackbuilding.shtml
+
+2023-11-15 09:52:58,469 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blackhouse.shtml
+
+2023-11-15 09:52:58,775 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blackhouse2.shtml
+
+2023-11-15 09:52:59,010 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blackiedouglasservicestation.shtml
+
+2023-11-15 09:52:59,738 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blackstoneapartments.shtml
+
+2023-11-15 09:53:00,460 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blackwoodpicklebuilding.shtml
+
+2023-11-15 09:53:01,128 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blackwoodsodabuilding.shtml
+
+2023-11-15 09:53:01,380 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blairhouse.shtml
+
+2023-11-15 09:53:01,820 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blaishouse.shtml
+
+2023-11-15 09:53:02,116 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blanksteinhouse.shtml
+
+2023-11-15 09:53:02,703 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/oakriverhotel.shtml
+
+2023-11-15 09:53:03,028 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blessedsacramentchurch.shtml
+
+2023-11-15 09:53:03,626 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/elieromancatholic.shtml
+
+2023-11-15 09:53:04,061 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blessedvirginmarystandrews.shtml
+
+2023-11-15 09:53:04,453 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blessedvirginmaryeastselkirk.shtml
+
+2023-11-15 09:53:04,829 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blessedvirginmarycemetery.shtml
+
+2023-11-15 09:53:05,270 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blessedvirginmarywinnipeg.shtml
+
+2023-11-15 09:53:05,860 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blessedvirginmaryelphinstone.shtml
+
+2023-11-15 09:53:06,566 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blessedvirginmaryflinflon.shtml
+
+2023-11-15 09:53:07,849 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/dnisterchurch.shtml
+
+2023-11-15 09:53:08,630 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blessedvirginmarymeadowlands.shtml
+
+2023-11-15 09:53:09,443 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/rutheniangreekcatholic.shtml
+
+2023-11-15 09:53:09,921 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blewettblock.shtml
+
+2023-11-15 09:53:10,688 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bluebellschool.shtml
+
+2023-11-15 09:53:11,147 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blueribbonwarehouse.shtml
+
+2023-11-15 09:53:12,115 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/blumenhofschool.shtml
+
+2023-11-15 09:53:12,346 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/rosetownmennonite.shtml
+
+2023-11-15 09:53:12,638 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boissevainschool2.shtml
+
+2023-11-15 09:53:13,816 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boissevainlandtitles.shtml
+
+2023-11-15 09:53:14,127 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boissevainarchives.shtml
+
+2023-11-15 09:53:14,381 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boissevaintelephone.shtml
+
+2023-11-15 09:53:15,061 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boissevaintownhall.shtml
+
+2023-11-15 09:53:15,358 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boiteauharness.shtml
+
+2023-11-15 09:53:16,107 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boledrugbuilding.shtml
+
+2023-11-15 09:53:17,268 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bonaccordblock.shtml
+
+2023-11-15 09:53:17,595 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boniveensblock.shtml
+
+2023-11-15 09:53:17,921 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boothgranary.shtml
+
+2023-11-15 09:53:18,335 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/borrowmanhouse.shtml
+
+2023-11-15 09:53:18,525 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/borshawschool.shtml
+
+2023-11-15 09:53:18,755 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/borthwickhouse.shtml
+
+2023-11-15 09:53:19,219 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bottomleyhouse.shtml
+
+2023-11-15 09:53:19,619 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boultongarageautosales.shtml
+
+2023-11-15 09:53:20,248 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boultonmanor.shtml
+
+2023-11-15 09:53:20,798 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boultonschool.shtml
+
+2023-11-15 09:53:21,097 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bowleshouse.shtml
+
+2023-11-15 09:53:21,552 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bowmanhouse.shtml
+
+2023-11-15 09:53:22,040 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bowsmanunited.shtml
+
+2023-11-15 09:53:22,292 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bowyerhouse.shtml
+
+2023-11-15 09:53:22,831 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/millbrookcourt.shtml
+
+2023-11-15 09:53:23,055 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boycebuilding.shtml
+
+2023-11-15 09:53:23,497 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boydbuilding.shtml
+
+2023-11-15 09:53:23,856 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/boydhouse.shtml
+
+2023-11-15 09:53:24,233 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/congressapartments.shtml
+
+2023-11-15 09:53:24,458 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bradburnbuilding.shtml
+
+2023-11-15 09:53:25,374 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/braddockschool.shtml
+
+2023-11-15 09:53:26,119 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bradleylawoffice.shtml
+
+2023-11-15 09:53:26,348 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/hardingunited.shtml
+
+2023-11-15 09:53:26,629 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bradybuilding.shtml
+
+2023-11-15 09:53:26,874 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/braemarcourt.shtml
+
+2023-11-15 09:53:28,412 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonarmoury.shtml
+
+2023-11-15 09:53:28,918 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandoncitizensscience.shtml
+
+2023-11-15 09:53:29,804 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonclub.shtml
+
+2023-11-15 09:53:30,733 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandoncollege.shtml
+
+2023-11-15 09:53:31,837 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandoncollegiate.shtml
+
+2023-11-15 09:53:32,736 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandoncourthouse.shtml
+
+2023-11-15 09:53:33,091 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandoncourt.shtml
+
+2023-11-15 09:53:33,473 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonfiremuseum.shtml
+
+2023-11-15 09:53:33,632 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonfirehall2.shtml
+
+2023-11-15 09:53:33,867 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandongaol.shtml
+
+2023-11-15 09:53:34,408 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandongeneralhospital.shtml
+
+2023-11-15 09:53:34,640 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/westerngrocerswarehouse.shtml
+
+2023-11-15 09:53:35,132 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonhillsschool.shtml
+
+2023-11-15 09:53:35,450 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonlandtitles.shtml
+
+2023-11-15 09:53:36,995 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonnormalschool.shtml
+
+2023-11-15 09:53:37,970 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonsunbuilding.shtml
+
+2023-11-15 09:53:38,245 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandontimes.shtml
+
+2023-11-15 09:53:39,750 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brantschool.shtml
+
+2023-11-15 09:53:40,029 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brantfordapartments.shtml
+
+2023-11-15 09:53:40,365 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/braunhouse.shtml
+
+2023-11-15 09:53:40,645 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/braunsteinblock.shtml
+
+2023-11-15 09:53:41,210 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ambassadorapartments.shtml
+
+2023-11-15 09:53:42,280 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/breadalbanechurch.shtml
+
+2023-11-15 09:53:42,534 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/breenhousetuxedo.shtml
+
+2023-11-15 09:53:42,830 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/breenhouse.shtml
+
+2023-11-15 09:53:43,875 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/breenmotorbuilding.shtml
+
+2023-11-15 09:53:44,411 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brentwoodlodge.shtml
+
+2023-11-15 09:53:44,966 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/mackenzieblock.shtml
+
+2023-11-15 09:53:45,326 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brightstoneschool.shtml
+
+2023-11-15 09:53:46,096 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/broadwayfirstbaptist.shtml
+
+2023-11-15 09:53:47,019 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/broadwaymethodist.shtml
+
+2023-11-15 09:53:47,590 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brockcorydonschool.shtml
+
+2023-11-15 09:53:48,201 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brockintonhouse.shtml
+
+2023-11-15 09:53:49,095 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brodieschool.shtml
+
+2023-11-15 09:53:51,653 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brokenbeaumuseum.shtml
+
+2023-11-15 09:53:52,439 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brokenheadschool.shtml
+
+2023-11-15 09:53:52,704 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brokentreecottage.shtml
+
+2023-11-15 09:53:53,070 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bromleyhouse.shtml
+
+2023-11-15 09:53:53,315 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bronxapartments.shtml
+
+2023-11-15 09:53:54,481 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brookdalewarehouse.shtml
+
+2023-11-15 09:53:54,807 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brookdaleunited.shtml
+
+2023-11-15 09:53:55,056 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brookhouse.shtml
+
+2023-11-15 09:53:55,585 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brooklandscollegiate.shtml
+
+2023-11-15 09:53:55,978 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brooklandshotel.shtml
+
+2023-11-15 09:53:56,472 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brooklandsmunicipalhall.shtml
+
+2023-11-15 09:53:56,938 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownrutherford.shtml
+
+2023-11-15 09:53:57,566 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownblock.shtml
+
+2023-11-15 09:53:58,254 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownblockarlington.shtml
+
+2023-11-15 09:53:58,498 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownbuilding.shtml
+
+2023-11-15 09:53:58,824 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownhouse.shtml
+
+2023-11-15 09:53:59,469 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownhousemorris.shtml
+
+2023-11-15 09:53:59,612 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownhouse2.shtml
+
+2023-11-15 09:53:59,890 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownhousedundurn.shtml
+
+2023-11-15 09:54:00,405 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownhousebrandon.shtml
+
+2023-11-15 09:54:01,029 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownleaschool.shtml
+
+2023-11-15 09:54:01,549 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownleehouse.shtml
+
+2023-11-15 09:54:01,816 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownsdrugstore.shtml
+
+2023-11-15 09:54:02,397 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brownsstockexchange.shtml
+
+2023-11-15 09:54:03,160 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bruceschoolwinnipeg.shtml
+
+2023-11-15 09:54:04,039 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brufrikirkjulutheran.shtml
+
+2023-11-15 09:54:04,380 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brunswickapartments.shtml
+
+2023-11-15 09:54:04,732 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brusselsapartments.shtml
+
+2023-11-15 09:54:05,291 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brycehouse.shtml
+
+2023-11-15 09:54:05,691 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/buchananschool.shtml
+
+2023-11-15 09:54:06,397 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/buckleyvilleschool.shtml
+
+2023-11-15 09:54:06,980 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/budnikblock.shtml
+
+2023-11-15 09:54:07,276 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/buenavistaapartments.shtml
+
+2023-11-15 09:54:07,386 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/buenavistacottage.shtml
+
+2023-11-15 09:54:07,662 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/buffalopointmuseum.shtml
+
+2023-11-15 09:54:07,976 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/buhlerhouse.shtml
+
+2023-11-15 09:54:08,514 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bunnhouse.shtml
+
+2023-11-15 09:54:08,785 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/burchillhoweyblock.shtml
+
+2023-11-15 09:54:09,111 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/burgesshouse.shtml
+
+2023-11-15 09:54:09,753 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/burnscottage.shtml
+
+2023-11-15 09:54:10,587 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/medoraschool.shtml
+
+2023-11-15 09:54:10,804 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/gleannmuseum.shtml
+
+2023-11-15 09:54:11,224 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/burrowsblock.shtml
+
+2023-11-15 09:54:11,451 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/burrowstewartmilne.shtml
+
+2023-11-15 09:54:11,914 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bushnellapartments.shtml
+
+2023-11-15 09:54:12,747 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/butterfieldschool.shtml
+
+2023-11-15 09:54:13,817 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/butterworthschool.shtml
+
+2023-11-15 09:54:14,544 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/buttrumschool.shtml
+
+2023-11-15 09:54:14,874 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/riverapartments.shtml
+
+2023-11-15 09:54:15,187 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cadominbuilding.shtml
+
+2023-11-15 09:54:15,574 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cadurcisunited.shtml
+
+2023-11-15 09:54:15,954 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cainblock.shtml
+
+2023-11-15 09:54:16,188 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/calderbuilding.shtml
+
+2023-11-15 09:54:16,443 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/calofwarehouse.shtml
+
+2023-11-15 09:54:16,930 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/stjosaphatmartyr.shtml
+
+2023-11-15 09:54:17,408 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/calvarypentecostal.shtml
+
+2023-11-15 09:54:17,710 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/calvinfilipinopresbyterian.shtml
+
+2023-11-15 09:54:18,085 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cambridgeapartments.shtml
+
+2023-11-15 09:54:18,564 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/camdencourt.shtml
+
+2023-11-15 09:54:18,936 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/camelotapartments.shtml
+
+2023-11-15 09:54:19,135 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/polishmuseum.shtml
+
+2023-11-15 09:54:19,419 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cameronbuilding.shtml
+
+2023-11-15 09:54:19,755 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cameronchurch.shtml
+
+2023-11-15 09:54:20,612 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cameronschool.shtml
+
+2023-11-15 09:54:21,411 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/camilleschool.shtml
+
+2023-11-15 09:54:22,107 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/campauschool.shtml
+
+2023-11-15 09:54:22,431 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/campbellblock.shtml
+
+2023-11-15 09:54:23,065 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/adelmanbuilding.shtml
+
+2023-11-15 09:54:23,623 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/campbellbuilding.shtml
+
+2023-11-15 09:54:23,950 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/campbellhouse.shtml
+
+2023-11-15 09:54:24,275 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/campbellhouse2.shtml
+
+2023-11-15 09:54:24,625 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/campbellhousecarman.shtml
+
+2023-11-15 09:54:25,156 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/campbellsoupplant.shtml
+
+2023-11-15 09:54:25,859 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/campeauschool.shtml
+
+2023-11-15 09:54:26,649 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/camperschool.shtml
+
+2023-11-15 09:54:27,053 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/campervilleschool.shtml
+
+2023-11-15 09:54:27,612 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/canadabuilding.shtml
+
+2023-11-15 09:54:28,191 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/canadamalting.shtml
+
+2023-11-15 09:54:28,436 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/canadapermanentbuilding.shtml
+
+2023-11-15 09:54:29,118 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofcommerceelkhorn.shtml
+
+2023-11-15 09:54:29,890 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofcommerceneepawa.shtml
+
+2023-11-15 09:54:33,292 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cibcgilbertplains.shtml
+
+2023-11-15 09:54:33,660 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cibcdauphin.shtml
+
+2023-11-15 09:54:33,940 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofcommercevirden.shtml
+
+2023-11-15 09:54:34,545 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofcommercerivers.shtml
+
+2023-11-15 09:54:35,788 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofcommercethepas.shtml
+
+2023-11-15 09:54:36,435 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofcommerceweston.shtml
+
+2023-11-15 09:54:36,918 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofcommerceelmwood.shtml
+
+2023-11-15 09:54:37,988 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofcommercegrandview.shtml
+
+2023-11-15 09:54:38,331 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/elginmuseum.shtml
+
+2023-11-15 09:54:38,889 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bankofcommercecarman.shtml
+
+2023-11-15 09:54:39,869 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/millenniumcentre.shtml
+
+2023-11-15 09:54:40,170 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/canadianrubberwarehouse.shtml
+
+2023-11-15 09:54:40,580 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/czechoslovakbuilding.shtml
+
+2023-11-15 09:54:41,309 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/fairbanksmorsebuilding.shtml
+
+2023-11-15 09:54:41,799 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/greaterwinnipeggasbuilding.shtml
+
+2023-11-15 09:54:41,903 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cibclynnlake.shtml
+
+2023-11-15 09:54:42,320 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/molineplowbuilding.shtml
+
+2023-11-15 09:54:43,119 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/molineplowwarehouse.shtml
+
+2023-11-15 09:54:43,700 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/humanrightsmuseum.shtml
+
+2023-11-15 09:54:44,101 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cnibwinnipeg.shtml
+
+2023-11-15 09:54:44,677 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/forkspowerhouse.shtml
+
+2023-11-15 09:54:45,281 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/gillamrailwaystation.shtml
+
+2023-11-15 09:54:45,854 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/greenwaystation.shtml
+
+2023-11-15 09:54:46,433 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/eliestation.shtml
+
+2023-11-15 09:54:46,676 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/lakefrancisstation.shtml
+
+2023-11-15 09:54:47,238 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/stlaurentstation.shtml
+
+2023-11-15 09:54:47,608 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/somersetstation.shtml
+
+2023-11-15 09:54:47,878 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/bethanystation.shtml
+
+2023-11-15 09:54:48,316 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/tolstoistation.shtml
+
+2023-11-15 09:54:48,676 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/eastselkirkstation.shtml
+
+2023-11-15 09:54:49,254 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/labroqueriestation.shtml
+
+2023-11-15 09:54:49,800 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/marchandstation.shtml
+
+2023-11-15 09:54:51,080 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/pineystation.shtml
+
+2023-11-15 09:54:51,590 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/menisinostation.shtml
+
+2023-11-15 09:54:52,282 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/portagecnrstation.shtml
+
+2023-11-15 09:54:52,524 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/sandylakestation.shtml
+
+2023-11-15 09:54:52,989 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/mariapolisstation.shtml
+
+2023-11-15 09:54:53,590 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/swanlakestation.shtml
+
+2023-11-15 09:54:54,137 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/victoriabeachstation.shtml
+
+2023-11-15 09:54:54,449 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/vassarstation.shtml
+
+2023-11-15 09:54:54,908 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ericksonstation.shtml
+
+2023-11-15 09:54:55,403 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/thompsonstation.shtml
+
+2023-11-15 09:54:55,704 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/virdencnrstation.shtml
+
+2023-11-15 09:54:56,064 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/ridgevillestation.shtml
+
+2023-11-15 09:54:56,950 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/riverscnrstation.shtml
+
+2023-11-15 09:54:57,661 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/roblincnrstation.shtml
+
+2023-11-15 09:54:58,222 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carmanrailwaystation.shtml
+
+2023-11-15 09:54:58,910 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/churchillcnrstation.shtml
+
+2023-11-15 09:55:00,106 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/thepascnrstation.shtml
+
+2023-11-15 09:55:00,657 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/notredamestation.shtml
+
+2023-11-15 09:55:01,092 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brookdalestation.shtml
+
+2023-11-15 09:55:01,316 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/beautifulplainsmuseum.shtml
+
+2023-11-15 09:55:02,625 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cranberryportagerailwaystation.shtml
+
+2023-11-15 09:55:03,147 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/dauphinrailwaystation.shtml
+
+2023-11-15 09:55:03,779 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/flinflonmuseum.shtml
+
+2023-11-15 09:55:05,348 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/lundarmuseum.shtml
+
+2023-11-15 09:55:05,724 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/mccrearycnrstation.shtml
+
+2023-11-15 09:55:07,072 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/miamirailwaystation.shtml
+
+2023-11-15 09:55:07,506 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/rollingmemoriesmuseum.shtml
+
+2023-11-15 09:55:08,403 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/winnipegosismuseum.shtml
+
+2023-11-15 09:55:09,250 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/thepasenginehouse.shtml
+
+2023-11-15 09:55:09,989 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/dauphinroundhouse.shtml
+
+2023-11-15 09:55:10,239 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/domoblock.shtml
+
+2023-11-15 09:55:11,023 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/pineysectionhouse.shtml
+
+2023-11-15 09:55:11,656 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/stbonifacecnrstation.shtml
+
+2023-11-15 09:55:12,286 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/mmfbuilding.shtml
+
+2023-11-15 09:55:12,854 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cprenginehousereston.shtml
+
+2023-11-15 09:55:13,495 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/archibaldenginehouse.shtml
+
+2023-11-15 09:55:14,200 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cprpostoffice.shtml
+
+2023-11-15 09:55:14,960 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cprwinnipeg.shtml
+
+2023-11-15 09:55:15,853 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/emersoncprstation.shtml
+
+2023-11-15 09:55:16,753 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/tilstoncprstation.shtml
+
+2023-11-15 09:55:17,696 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/mowbraytrainstation.shtml
+
+2023-11-15 09:55:18,368 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/mcauleystation.shtml
+
+2023-11-15 09:55:18,600 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/dominioncitystation.shtml
+
+2023-11-15 09:55:19,085 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/altonastation.shtml
+
+2023-11-15 09:55:19,792 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/fraserwoodstation.shtml
+
+2023-11-15 09:55:20,242 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/lacdubonnetstation.shtml
+
+2023-11-15 09:55:20,669 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/morrisstation.shtml
+
+2023-11-15 09:55:21,256 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/pettapiecestation.shtml
+
+2023-11-15 09:55:21,827 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/piersonstation.shtml
+
+2023-11-15 09:55:22,166 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/shoallakestation.shtml
+
+2023-11-15 09:55:22,474 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/petersfieldstation.shtml
+
+2023-11-15 09:55:23,106 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/silverstation.shtml
+
+2023-11-15 09:55:23,921 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/lyletoncprstation.shtml
+
+2023-11-15 09:55:24,500 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/gimlirailwaystation.shtml
+
+2023-11-15 09:55:25,155 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/manitourailwaystation.shtml
+
+2023-11-15 09:55:25,501 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/mordencprstation.shtml
+
+2023-11-15 09:55:26,070 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/virdentrainstation.shtml
+
+2023-11-15 09:55:26,612 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/minnedosacprstation.shtml
+
+2023-11-15 09:55:28,037 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/arborgcprstation.shtml
+
+2023-11-15 09:55:29,073 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/portagecprstation.shtml
+
+2023-11-15 09:55:29,859 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/rivertonmuseum.shtml
+
+2023-11-15 09:55:30,446 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/strathclairmuseum.shtml
+
+2023-11-15 09:55:31,355 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandoncprstation.shtml
+
+2023-11-15 09:55:31,680 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/wheatboardbuilding.shtml
+
+2023-11-15 09:55:32,026 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/canalschool.shtml
+
+2023-11-15 09:55:32,792 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cannonschool.shtml
+
+2023-11-15 09:55:33,811 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/kennedyhouse.shtml
+
+2023-11-15 09:55:34,080 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carberryagsocietybuilding.shtml
+
+2023-11-15 09:55:34,178 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carberrycarwash.shtml
+
+2023-11-15 09:55:34,470 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carberryflowershop.shtml
+
+2023-11-15 09:55:34,955 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carberrylegion.shtml
+
+2023-11-15 09:55:35,874 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carberryunitedchurch.shtml
+
+2023-11-15 09:55:36,437 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carberryplainsmuseum.shtml
+
+2023-11-15 09:55:36,988 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carberrytelephone.shtml
+
+2023-11-15 09:55:37,820 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cardaleunited.shtml
+
+2023-11-15 09:55:38,086 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cardhouse.shtml
+
+2023-11-15 09:55:38,388 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/careyhousetuxedo.shtml
+
+2023-11-15 09:55:38,800 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/elmcreekelevator2.shtml
+
+2023-11-15 09:55:39,071 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/oaknerelevator2.shtml
+
+2023-11-15 09:55:39,617 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/winklerelevator5.shtml
+
+2023-11-15 09:55:40,457 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/newdaleelevator2.shtml
+
+2023-11-15 09:55:41,658 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/solsgirthelevator.shtml
+
+2023-11-15 09:55:41,898 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/caribouhall.shtml
+
+2023-11-15 09:55:42,176 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carltonbuilding.shtml
+
+2023-11-15 09:55:42,525 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carlyleapartments.shtml
+
+2023-11-15 09:55:42,750 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carmanapartments.shtml
+
+2023-11-15 09:55:43,287 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carmanmemorialhall.shtml
+
+2023-11-15 09:55:43,898 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/stpaulsvirden.shtml
+
+2023-11-15 09:55:44,709 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carmichaelschool.shtml
+
+2023-11-15 09:55:44,988 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carnefacblock.shtml
+
+2023-11-15 09:55:45,870 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carnegielibrary.shtml
+
+2023-11-15 09:55:46,265 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carneyhouse.shtml
+
+2023-11-15 09:55:46,585 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/caronhouse.shtml
+
+2023-11-15 09:55:46,878 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/caronhouse2.shtml
+
+2023-11-15 09:55:47,195 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carpathiaschool.shtml
+
+2023-11-15 09:55:47,535 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carpenterhousebarn.shtml
+
+2023-11-15 09:55:47,821 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carpentierhouse.shtml
+
+2023-11-15 09:55:48,318 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carrickapartments.shtml
+
+2023-11-15 09:55:48,573 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carrickhouse.shtml
+
+2023-11-15 09:55:49,501 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carrollschool.shtml
+
+2023-11-15 09:55:49,987 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carrollhall.shtml
+
+2023-11-15 09:55:50,360 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carruthersbuilding.shtml
+
+2023-11-15 09:55:50,635 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carruthershousetuxedo.shtml
+
+2023-11-15 09:55:50,988 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/carterhouse.shtml
+
+2023-11-15 09:55:51,517 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/scotthousemanitou.shtml
+
+2023-11-15 09:55:52,084 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cartmellhouse.shtml
+
+2023-11-15 09:55:52,554 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cartwrightblacksmith.shtml
+
+2023-11-15 09:55:53,032 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cartwrightunited.shtml
+
+2023-11-15 09:55:53,406 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/casalomabuilding.shtml
+
+2023-11-15 09:55:53,905 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/casalomawasagaming.shtml
+
+2023-11-15 09:55:54,401 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/casebuilding.shtml
+
+2023-11-15 09:55:54,940 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/casselmanhouse.shtml
+
+2023-11-15 09:55:55,368 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/casselsstarbakery.shtml
+
+2023-11-15 09:55:55,893 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/castleaveryschool.shtml
+
+2023-11-15 09:55:56,206 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/castlehouse.shtml
+
+2023-11-15 09:55:56,451 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/castlemaineapartments.shtml
+
+2023-11-15 09:55:57,017 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cavellapartments.shtml
+
+2023-11-15 09:55:57,962 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cavendishschool.shtml
+
+2023-11-15 09:55:58,366 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/cedarspringscottage.shtml
+
+2023-11-15 09:55:58,764 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/centennialconcerthall.shtml
+
+2023-11-15 09:55:59,555 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/centennialschool.shtml
+
+2023-11-15 09:55:59,840 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/centralblock.shtml
+
+2023-11-15 09:56:01,140 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/brandonfirehall.shtml
+
+2023-11-15 09:56:01,924 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/centraldistrictgaol.shtml
+
+2023-11-15 09:56:02,900 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/centralnormalschool.shtml
+
+2023-11-15 09:56:03,290 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/centralstpaulschool.shtml
+
+2023-11-15 09:56:03,976 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/centrevilleschool.shtml
+
+2023-11-15 09:56:04,542 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/miamiunited.shtml
+
+2023-11-15 09:56:05,227 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/treherneunited.shtml
+
+2023-11-15 09:56:05,803 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/chambrehouse.shtml
+
+2023-11-15 09:56:06,257 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/championhouse.shtml
+
+2023-11-15 09:56:06,685 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/champlainschool.shtml
+
+2023-11-15 09:56:07,278 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/chancellorschool.shtml
+
+2023-11-15 09:56:07,730 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/chapelnotredame.shtml
+
+2023-11-15 09:56:08,016 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/chapmandrugstore.shtml
+
+2023-11-15 09:56:08,540 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/chapmanelevator.shtml
+
+2023-11-15 09:56:09,225 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/chapmanhouse.shtml
+
+2023-11-15 09:56:09,531 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: 'list' object has no attribute 'replace' 
+Url: http://www.mhs.mb.ca/docs/sites/chapmanhousekillarney.shtml
+

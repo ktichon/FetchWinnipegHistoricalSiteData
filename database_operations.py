@@ -39,6 +39,7 @@ class DBOperations:
                 (site_id INTEGER primary key not null,
                 name TEXT,
                 address TEXT,
+                mainType TEXT,
                 latitude REAL not null,
                 longitude REAL not null,
                 province TEXT,
@@ -115,8 +116,8 @@ class DBOperations:
             #sql = """SELECT TOP 1 site_id FROM historicalSite WHERE streetName = ? AND streetNumber = ?"""
 
             insert_site_sql =  """INSERT OR IGNORE into manitobaHistoricalSite
-            (site_id, name, address, latitude, longitude, province, municipality, description, site_url, import_date)
-            values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"""
+            (site_id, name, address, mainType,  latitude, longitude, province, municipality, description, site_url, import_date)
+            values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"""
 
             insert_photo_sql =  """INSERT OR IGNORE into sitePhotos
             (site_id, photo_name, photo_url, info, import_date)
@@ -135,7 +136,7 @@ class DBOperations:
                 before_insert = cursor.execute("SELECT COUNT() FROM manitobaHistoricalSite").fetchone()[0]
                 for newSite in historical_sites_list:
                     try:
-                        cursor.execute(insert_site_sql, ( newSite["site_id"], newSite["site_name"], newSite["address"], newSite["latitude"], newSite["longitude"] , "MB" , newSite["municipality"], newSite["description"], newSite["url"] , datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
+                        cursor.execute(insert_site_sql, ( newSite["site_id"], newSite["site_name"], newSite["address"], newSite["types"][0], newSite["latitude"], newSite["longitude"] , "MB" , newSite["municipality"], newSite["description"], newSite["url"] , datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
                         cursor.executemany(insert_photo_sql, newSite["pictures"])
                         cursor.executemany(insert_source_sql, newSite["sources"] )
 

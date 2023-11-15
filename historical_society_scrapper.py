@@ -42,6 +42,7 @@ class ManitobaHistoricalScrapper():
     try:
         #self.allMunicipality = []
         self.allTypes = ["Building", "Cemetery","Location","Monument","Museum%2FArchives", "Other"]
+        self.allTypes = ["Museum%2FArchives", "Cemetery" , "Monument", "Location", "Building", "Other"]
         self.allSites = []
         self.saveImages = True
         self.errorCount = 0
