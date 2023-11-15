@@ -11,7 +11,7 @@
 
 --SELECT DISTINCT  municipality FROM manitobaHistoricalSite
 
-SELECT * FROm manitobaHistoricalSite where municipality = '`'
+SELECT DISTINCT municipality FROm manitobaHistoricalSite --where municipality = '`'
 
 
 

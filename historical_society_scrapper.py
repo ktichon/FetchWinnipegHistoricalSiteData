@@ -59,7 +59,7 @@ class ManitobaHistoricalScrapper():
       for index in range(len(self.allSites)):
          if self.allSites[index]["url"] == siteURL:
             duplicate = True
-            self.allSites[index]["types"].append(siteType)
+            self.allSites[index]["types"].append(siteType.replace("%2F", " or "))
             break
 
     except Exception as error:
@@ -79,16 +79,15 @@ class ManitobaHistoricalScrapper():
         self.logger.error("ManitobaHistoricalScrapper/save_image: %s", error)
         self.errorCount += 1
 
-
   def get_all_sites(self):
-     """Gets all sites"""
+      """Gets all sites"""
 
-     try:
+      try:
         self.save_image(self.noImageUrl, self.noImageUrl.split("/")[-1])
         for siteType in self.allTypes:
            self.get_all_site_links_for_type(siteType)
 
-     except Exception as error:
+      except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/get_all_sites: %s", error)
             self.errorCount += 1
 
@@ -138,7 +137,6 @@ class ManitobaHistoricalScrapper():
     """Returns the properly formated url"""
     return self.BASE_SEARCH_URL + "&m-name=" + municipality + "&st-name=" + type + "&submit=Search"
 
-
   def fetch_site_info(self, siteName, siteURL, siteMuni, siteAddress, siteType):
     """Gets the site information and save it to a dictionary"""
     startError = self.errorCount
@@ -171,6 +169,8 @@ class ManitobaHistoricalScrapper():
             if( "\n\n" in text):
                 text = text.split("\n\n")[0]
             siteDescription += text
+
+
 
       except Exception as error:
             self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Parse Description: %s \nUrl: " + siteURL + "\n", error)
@@ -271,7 +271,8 @@ class ManitobaHistoricalScrapper():
 
       latitude = None
       longitude = None
-      firstType = [siteType]
+      firstType = [siteType].replace("%2F", " or ")
+      siteFormatedMuni = siteMuni.replace("`", "Other")
       try:
         latitude = float(siteLocation.split(', ')[0].replace("N", "").replace("S","-"))
         longitude = float(siteLocation.split(', ')[1].replace("W", "-").replace("E", ""))
@@ -282,14 +283,28 @@ class ManitobaHistoricalScrapper():
               self.logger.error("ManitobaHistoricalScrapper/fetch_site_info/Get Location: %s \nUrl: " + siteURL + "\n", error)
             self.errorCount += 1
       if self.errorCount > startError:
-       self.badSites.append(siteURL)
+       self.badSites.append(dict(name = siteName, municipality = siteFormatedMuni, address = siteAddress, url = siteURL))
       else:
-        self.allSites.append(dict(site_id = currentSiteId, site_name = siteName, types = firstType, municipality =  siteMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
+        self.allSites.append(dict(site_id = currentSiteId, site_name = siteName, types = firstType, municipality =  siteFormatedMuni, address = siteAddress, latitude = latitude, longitude = longitude, description = siteDescription, pictures  = sitePictures, sources = siteSources, url = siteURL))
         self.lastSiteID = currentSiteId
     except Exception as error:
             if startError == self.errorCount:
               self.logger.error("ManitobaHistoricalScrapper/fetch_site_info: %s \nUrl: " + siteURL + "\n", error)
             self.errorCount += 1
+
+  def log_bad_sites(self):
+     """Writes all invalid sites to a txt file"""
+     try:
+      file = open("Invalid_Sites.txt", "w")
+      for badSite in self.badSites:
+          siteLine = badSite["name"] + ", " + badSite["municipality"] + ", "  + badSite["address"] + ", "  + badSite["url"] + "\n\n"
+          file.write(siteLine)
+
+     except Exception as error:
+              self.logger.error("ManitobaHistoricalScrapper/log_bad_sites: %s", error)
+
+
+
 
 
 
@@ -335,6 +350,9 @@ if __name__ == "__main__":
     print("# of bad sites " + str(len(siteScraper.badSites)))
     print("Completed fetching data at " + str(endTime))
     print("Time it took to fetch data: " + str(endTime - startTime))
+    print("Logging bad sites")
+    siteScraper.log_bad_sites()
+
     print("Fetching Winnipeg Data")
     startTime = datetime.today()
     print("Start fetching data at " + str(startTime))
