@@ -39,7 +39,7 @@ class DBOperations:
                 (site_id INTEGER primary key not null,
                 name TEXT,
                 address TEXT,
-                mainType TEXT,
+                main_type TEXT,
                 latitude REAL not null,
                 longitude REAL not null,
                 province TEXT,
@@ -116,7 +116,7 @@ class DBOperations:
             #sql = """SELECT TOP 1 site_id FROM historicalSite WHERE streetName = ? AND streetNumber = ?"""
 
             insert_site_sql =  """INSERT OR IGNORE into manitobaHistoricalSite
-            (site_id, name, address, mainType,  latitude, longitude, province, municipality, description, site_url, import_date)
+            (site_id, name, address, main_type,  latitude, longitude, province, municipality, description, site_url, import_date)
             values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"""
 
             insert_photo_sql =  """INSERT OR IGNORE into sitePhotos

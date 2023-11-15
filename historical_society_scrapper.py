@@ -272,7 +272,7 @@ class ManitobaHistoricalScrapper():
 
       latitude = None
       longitude = None
-      firstType = siteType.replace("%2F", " or ")
+      firstType = [siteType.replace("%2F", " or ")]
       siteFormatedMuni = siteMuni.replace("`", "Other")
       try:
         latitude = float(siteLocation.split(', ')[0].replace("N", "").replace("S","-"))
@@ -333,7 +333,7 @@ if __name__ == "__main__":
     logger.info("Application Historical Society Scrapper Started")
     startTime = datetime.today()
     siteScraper = ManitobaHistoricalScrapper()
-    siteScraper.saveImages = False
+    #siteScraper.saveImages = False
 
     #print(siteScraper.allMunicipality)
     #print(siteScraper.allTypes)
