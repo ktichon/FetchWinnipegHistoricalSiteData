@@ -11,9 +11,11 @@
 
 --SELECT DISTINCT  municipality FROM manitobaHistoricalSite
 
-SELECT DISTINCT municipality FROm manitobaHistoricalSite --where municipality = '`'
+--SELECT DISTINCT municipality FROm manitobaHistoricalSite --where municipality = '`'
 
 
 
 
 
+SELECT * from winnipegHistoricalSite where longUrl <> ''
+9009383613648

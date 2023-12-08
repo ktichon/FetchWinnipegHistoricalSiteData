@@ -1,0 +1,210 @@
+0) All Saints Anglican Cemetery, Mossey River, Fork River, http://www.mhs.mb.ca/docs/sites/forkriverrccemetery.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling'
+
+1) High Bluff Presbyterian Church, Portage la Prairie (RM), , http://www.mhs.mb.ca/docs/sites/parishlot26.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+2) Holy Trinity Anglican Cemetery, Headingley, Bresaylor Road, http://www.mhs.mb.ca/docs/sites/holytrinitycemetery.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+3) Holy Trinity Roman Catholic Cemetery, Ethelbert, Garland, http://www.mhs.mb.ca/docs/sites/garlandromancatholiccemetery.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+4) Pierson Memorial Cemetery / Pierson War Memorial, Two Borders, Pierson, http://www.mhs.mb.ca/docs/sites/piersoncemetery.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+5) Queen of Heaven Mausoleum Cemetery, Winnipeg, Portage Avenue, http://www.mhs.mb.ca/docs/sites/queenofheavencemetery.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+6) Schonwiese Village Cemetery, Hanover, , http://www.mhs.mb.ca/docs/sites/schonwiesecemetery.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '--96.84861'
+
+7) St. Joseph's Polish National Catholic Cemetery, Beausejour, Fairway Drive South, http://www.mhs.mb.ca/docs/sites/stjosephscemeterybeausejour.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'Manny Jacob'
+
+8) St. Mark's Methodist Cemetery, Portage la Prairie (RM), , http://www.mhs.mb.ca/docs/sites/stmarksmethodistcemetery.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+9) Wapah Cemetery, Alonsa, , http://www.mhs.mb.ca/docs/sites/wapahcemetery.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling'
+
+10) Alexandre Antonin Tache Monument, Winnipeg, La Verendrye Park, http://www.mhs.mb.ca/docs/sites/tache_aa.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+11) Amber Vasas Memorial Park, Winnipeg, 63 Callum Crescent, http://www.mhs.mb.ca/docs/sites/vasaspark.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+12) Archbishop Tache House, Winnipeg, 151 Tache Avenue, http://www.mhs.mb.ca/docs/sites/tachehouse.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+13) Belgian Veterans Association Historical War Memorial, Winnipeg, 407 Provencher Boulevard, http://www.mhs.mb.ca/docs/sites/belgianwarmemorial.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+14) Bloody Saturday Monument, Winnipeg, Main Street, http://www.mhs.mb.ca/docs/sites/bloodysaturday.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+15) Broadway Bridge / Red River Bridges, Winnipeg, Provencher Boulevard, http://www.mhs.mb.ca/docs/sites/redriverbridges.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+16) Eatons Employee War Memorial, Winnipeg, 345 Portage Avenue, http://www.mhs.mb.ca/docs/sites/eatonswarmemorial.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling'
+
+17) Elzéar Goulet Park , Winnipeg, Tache Avenue, http://www.mhs.mb.ca/docs/sites/goulet_e.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+18) Fort Ellice Trail Marker, Prairie View, Birtle, http://www.mhs.mb.ca/docs/sites/fortellicetrail3.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+19) Fort Ellice Trail Marker, Rosedale, , http://www.mhs.mb.ca/docs/sites/fortellicetrail4.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+20) Fort Ellice Trail Marker, Neepawa, Lions River Bend Park, http://www.mhs.mb.ca/docs/sites/fortellicetrail2.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+21) Grey Nuns Plaque, Winnipeg, St. Mary's Road, http://www.mhs.mb.ca/docs/sites/greynuns.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+22) Grey Nuns Plaque, Winnipeg, Tache Avenue, http://www.mhs.mb.ca/docs/sites/greynuns2.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+1) High Bluff Presbyterian Church, Portage la Prairie (RM), , http://www.mhs.mb.ca/docs/sites/parishlot26.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+24) La Verendrye Park, Winnipeg, Tache Avenue, http://www.mhs.mb.ca/docs/sites/laverendryepark.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+25) MacKenzie-Papineau Battalion Plaque, Winnipeg, William Avenue, http://www.mhs.mb.ca/docs/sites/macpap.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+26) Manitoba Government Telephones War Memorial, Winnipeg, , http://www.mhs.mb.ca/docs/sites/telephonewarmemorial.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+27) Native Seasons, Winnipeg, The Forks, http://www.mhs.mb.ca/docs/sites/nativeseasons.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+28) Norwood Bridge, Winnipeg, St. Mary's Road, http://www.mhs.mb.ca/docs/sites/norwoodbridge.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+29) Provencher Monument, Winnipeg, Avenue de la Cathedrale, http://www.mhs.mb.ca/docs/sites/provencher_jn.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+30) Red River Floodway - Inlet Control Structure`, Winnipeg, , http://www.mhs.mb.ca/docs/sites/redriverfloodway1.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'Archives of Manitoba'
+
+31) Riel Millstones, Winnipeg, 494 Tache Avenue, http://www.mhs.mb.ca/docs/sites/rielmillstones.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+32) Sandy Lake and Area War Memorial, Harrison Park, Sandy Lake, http://www.mhs.mb.ca/docs/sites/sandylakewarmemorial.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+33) Shoal Lake Aqueduct, Winnipeg, Notre Dame Street, http://www.mhs.mb.ca/docs/sites/shoallakeaqueduct.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+34) Stoney Creek School No. 133, North Cypress-Langford, , http://www.mhs.mb.ca/docs/sites/stoneycreekschool.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'Gordon Goldsborough'
+
+35) Wattsview Honour Roll, Prairie View, Birtle, http://www.mhs.mb.ca/docs/sites/wattsviewwarmemorial.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'W'
+
+36) William Whyte Park / Fort Douglas Cairn, Winnipeg, 180 Higgins Avenue, http://www.mhs.mb.ca/docs/sites/fortdouglascairn.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+37) Winnipeg General Strike Plaque, Winnipeg, William Avenue, http://www.mhs.mb.ca/docs/sites/winnipeggeneralstrike.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+38) Winnipeg Hydro War Memorial, Winnipeg, , http://www.mhs.mb.ca/docs/sites/winnipeghydrowarmemorial.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+39) Birch River Village School No. 2053 / Birch River Collegiate, Mountain, Birch River, http://www.mhs.mb.ca/docs/sites/birchriverschool.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'W'
+
+40) Bjarmi School No. 1461, Bifrost-Riverton, , http://www.mhs.mb.ca/docs/sites/bjarmischool.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '-97.21546<'
+
+41) Doroshenko School No. 1730, Ethelbert, , http://www.mhs.mb.ca/docs/sites/doroshenkoschool.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+42) Grace Methodist Church / Grace United Church, Winnipeg, 266 Notre Dame Avenue, http://www.mhs.mb.ca/docs/sites/gracemethodist2.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+43) Lake Mary School No. 1739, Alonsa, , http://www.mhs.mb.ca/docs/sites/lakemaryschool.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'UKOW'
+
+44) Manitoba Pool Grain Elevator, Fisher, Fisher Branch, http://www.mhs.mb.ca/docs/sites/fisherbranchelevator.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'UKOW'
+
+45) Maryland Street Methodist Church / Maryland Methodist Church / Maryland United Church, Winnipeg, 576 Maryland Street, http://www.mhs.mb.ca/docs/sites/marylandmethodist.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling'
+
+46) No. 7 Bombing and Gunnery School, Dauphin (RM), Paulson, http://www.mhs.mb.ca/docs/sites/paulsonairport.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+47) Pendennis School No. 920, Riverdale, , http://www.mhs.mb.ca/docs/sites/pendennisschool.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+48) Pine Street School, Winnipeg, Valour Road, http://www.mhs.mb.ca/docs/sites/pinestreetschool.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+49) Reliance Grain Elevator / United Grain Growers Grain Elevator, Carberry, Fourth Avenue, http://www.mhs.mb.ca/docs/sites/carberryelevator.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'W'
+
+50) Riverview Park, Headingley, , http://www.mhs.mb.ca/docs/sites/riverviewpark.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+51) Sidney Brickworks, North Norfolk, Sidney, http://www.mhs.mb.ca/docs/sites/sidneybrickworks.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+52) United Grain Growers Grain Elevator, De Salaberry, Otterburne, http://www.mhs.mb.ca/docs/sites/otterburneelevator.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'UKOW'
+
+53) United Grain Growers Grain Elevator, Portage la Prairie (RM), Newton Siding, http://www.mhs.mb.ca/docs/sites/newtonelevator.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'W'
+
+54) United Grain Growers Grain  Elevator, North Cypress-Langford, Wellwood, http://www.mhs.mb.ca/docs/sites/wellwoodelevator.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'W'
+
+55) Arbuthnot House, Winnipeg, 103 Middle Gate, http://www.mhs.mb.ca/docs/sites/arbuthnothouse.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+12) Archbishop Tache House, Winnipeg, 151 Tache Avenue, http://www.mhs.mb.ca/docs/sites/tachehouse.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+57) Campbell Brothers and Wilson Warehouse / Adelman Building, Winnipeg, 92-100 Princess Street, http://www.mhs.mb.ca/docs/sites/adelmanbuilding.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+58) Emerson Quarantine Station, Emerson-Franklin, Sixth Street, Emerson, http://www.mhs.mb.ca/docs/sites/emersonquarantine.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling'
+
+59) Fire Hall No. 12, Winnipeg, 1055 Dorchester Avenue, http://www.mhs.mb.ca/docs/sites/firehall12.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+60) Hazelton Apartments, Winnipeg, 722 Maryland Street, http://www.mhs.mb.ca/docs/sites/hazeltonapartments.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '--97.15986'
+
+61) Knox Presbyterian Church / Trinity United Church, Portage la Prairie (City), 15 Tupper Street South, http://www.mhs.mb.ca/docs/sites/trinityunitedportage.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'Darryl Toews'
+
+62) McLeod School / McLeod Education Centre, Winnipeg, 530 McLeod Avenue, http://www.mhs.mb.ca/docs/sites/mcleodschoolwinnipeg.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'athan Kramer'
+
+63) Nicoll House / Nickel House, Prairie View, , http://www.mhs.mb.ca/docs/sites/nickelhouse.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: ''
+
+64) Norquay Building, Winnipeg, 401 York Avenue, http://www.mhs.mb.ca/docs/sites/norquaybuilding.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+65) Spring Valley School No. 649, Riverdale, , http://www.mhs.mb.ca/docs/sites/springvalleyschool.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+66) St. James Anglican Church, Winnipeg, 195 Collegiate Street, http://www.mhs.mb.ca/docs/sites/stjamesanglicanwinnipeg.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling'
+
+67) St. Ouens North School No. 909, Brokenhead, St. Ouens, http://www.mhs.mb.ca/docs/sites/stouensschool.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+
+68) Strathclair United Church, Yellowhead, 15 Poplar Street, Strathclair, http://www.mhs.mb.ca/docs/sites/strathclairunited.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '--100.39494'
+
+69) Women's Pavilion / Women's Hospital, Winnipeg, 735 Notre Dame Avenue, http://www.mhs.mb.ca/docs/sites/womenspavilion.shtml
+ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text'
+

@@ -1,0 +1,374 @@
+2023-12-06 12:15:26,525 - main - INFO - Application Historical Society Scrapper Started
+2023-12-06 12:15:59,222 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/forkriverrccemetery.shtml
+
+2023-12-06 12:16:16,304 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/chortitzacemetery.shtml
+
+2023-12-06 12:16:38,320 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/parishlot26.shtml
+
+2023-12-06 12:16:44,139 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/holytrinitycemetery.shtml
+
+2023-12-06 12:16:44,704 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/garlandromancatholiccemetery.shtml
+
+2023-12-06 12:17:16,103 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/piersoncemetery.shtml
+
+2023-12-06 12:17:18,973 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/queenofheavencemetery.shtml
+
+2023-12-06 12:17:30,850 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '--96.84861' 
+Url: http://www.mhs.mb.ca/docs/sites/schonwiesecemetery.shtml
+
+2023-12-06 12:17:51,862 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'Manny Jacob' 
+Url: http://www.mhs.mb.ca/docs/sites/stjosephscemeterybeausejour.shtml
+
+2023-12-06 12:17:54,235 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/stmarksmethodistcemetery.shtml
+
+2023-12-06 12:18:18,376 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/wapahcemetery.shtml
+
+2023-12-06 12:18:26,966 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/tache_aa.shtml
+
+2023-12-06 12:18:29,460 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/vasaspark.shtml
+
+2023-12-06 12:18:31,348 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/tachehouse.shtml
+
+2023-12-06 12:18:41,476 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/belgianwarmemorial.shtml
+
+2023-12-06 12:18:49,940 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/bloodysaturday.shtml
+
+2023-12-06 12:18:52,335 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/boultoncentenary.shtml
+
+2023-12-06 12:18:56,748 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/redriverbridges.shtml
+
+2023-12-06 12:19:36,951 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/eatonswarmemorial.shtml
+
+2023-12-06 12:19:42,453 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/goulet_e.shtml
+
+2023-12-06 12:19:52,533 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/fortellicetrail3.shtml
+
+2023-12-06 12:19:52,643 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/fortellicetrail4.shtml
+
+2023-12-06 12:19:52,878 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/fortellicetrail2.shtml
+
+2023-12-06 12:20:09,955 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/greynuns.shtml
+
+2023-12-06 12:20:10,064 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/greynuns2.shtml
+
+2023-12-06 12:20:16,164 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/hazeldellschool.shtml
+
+2023-12-06 12:20:19,254 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/parishlot26.shtml
+
+2023-12-06 12:20:35,372 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/magerpark.shtml
+
+2023-12-06 12:20:47,214 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/laverendryepark.shtml
+
+2023-12-06 12:20:58,267 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/macpap.shtml
+
+2023-12-06 12:21:01,584 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/telephonewarmemorial.shtml
+
+2023-12-06 12:21:26,199 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/nativeseasons.shtml
+
+2023-12-06 12:21:34,559 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/norwoodbridge.shtml
+
+2023-12-06 12:21:53,037 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/winklerjewishsettlers.shtml
+
+2023-12-06 12:21:59,467 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/provencher_jn.shtml
+
+2023-12-06 12:22:04,007 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'Archives of Manitoba' 
+Url: http://www.mhs.mb.ca/docs/sites/redriverfloodway1.shtml
+
+2023-12-06 12:22:07,113 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/rielmillstones.shtml
+
+2023-12-06 12:22:21,612 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/sandylakewarmemorial.shtml
+
+2023-12-06 12:22:29,299 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/shoallakeaqueduct.shtml
+
+2023-12-06 12:22:49,660 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'Gordon Goldsborough' 
+Url: http://www.mhs.mb.ca/docs/sites/stoneycreekschool.shtml
+
+2023-12-06 12:23:00,544 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/volunteermonument.shtml
+
+2023-12-06 12:23:14,515 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'W' 
+Url: http://www.mhs.mb.ca/docs/sites/wattsviewwarmemorial.shtml
+
+2023-12-06 12:23:20,493 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/fortdouglascairn.shtml
+
+2023-12-06 12:23:23,351 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/winnipeggeneralstrike.shtml
+
+2023-12-06 12:23:23,568 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/winnipeghydrowarmemorial.shtml
+
+2023-12-06 12:23:33,287 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/allisonbarn.shtml
+
+2023-12-06 12:23:38,519 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/baldwinbarn.shtml
+
+2023-12-06 12:23:44,062 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'W' 
+Url: http://www.mhs.mb.ca/docs/sites/birchriverschool.shtml
+
+2023-12-06 12:23:45,238 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '-97.21546<' 
+Url: http://www.mhs.mb.ca/docs/sites/bjarmischool.shtml
+
+2023-12-06 12:23:51,000 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/brownbarn.shtml
+
+2023-12-06 12:24:05,823 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/cliffordbarn.shtml
+
+2023-12-06 12:24:09,953 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/cottonbarn.shtml
+
+2023-12-06 12:24:10,047 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/cottongranary.shtml
+
+2023-12-06 12:24:10,163 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/crandellbarn.shtml
+
+2023-12-06 12:24:12,701 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/davidsonbarn.shtml
+
+2023-12-06 12:24:13,692 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/deamelbarn.shtml
+
+2023-12-06 12:24:16,640 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/doranbarn.shtml
+
+2023-12-06 12:24:16,782 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/doroshenkoschool.shtml
+
+2023-12-06 12:24:17,347 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/dubebarn.shtml
+
+2023-12-06 12:24:35,667 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/generalsteeleschool.shtml
+
+2023-12-06 12:24:39,724 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/govenlockbarn.shtml
+
+2023-12-06 12:24:40,225 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/gracemethodist2.shtml
+
+2023-12-06 12:24:47,316 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/hayfield.shtml
+
+2023-12-06 12:24:49,371 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/hillbarn.shtml
+
+2023-12-06 12:24:54,253 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/izonbarn.shtml
+
+2023-12-06 12:25:02,327 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'UKOW' 
+Url: http://www.mhs.mb.ca/docs/sites/lakemaryschool.shtml
+
+2023-12-06 12:25:24,740 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'UKOW' 
+Url: http://www.mhs.mb.ca/docs/sites/fisherbranchelevator.shtml
+
+2023-12-06 12:25:37,603 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/marylandmethodist.shtml
+
+2023-12-06 12:25:40,609 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/mclarenfarm.shtml
+
+2023-12-06 12:25:41,190 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/mcquaybarn.shtml
+
+2023-12-06 12:25:47,631 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/motheralbarn.shtml
+
+2023-12-06 12:25:51,174 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/neufeldhousebarn.shtml
+
+2023-12-06 12:25:55,506 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/paulsonairport.shtml
+
+2023-12-06 12:26:00,948 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/ocallaghanbarn.shtml
+
+2023-12-06 12:26:04,327 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/overwaterbarn.shtml
+
+2023-12-06 12:26:04,640 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/ozolbarn.shtml
+
+2023-12-06 12:26:05,660 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/patersonbarn.shtml
+
+2023-12-06 12:26:11,479 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/pendennisschool.shtml
+
+2023-12-06 12:26:14,228 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/pinestreetschool.shtml
+
+2023-12-06 12:26:25,944 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'W' 
+Url: http://www.mhs.mb.ca/docs/sites/carberryelevator.shtml
+
+2023-12-06 12:26:29,141 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/riverviewpark.shtml
+
+2023-12-06 12:26:29,807 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/rochanbarn.shtml
+
+2023-12-06 12:26:30,278 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/roperbarn.shtml
+
+2023-12-06 12:26:35,763 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/sangsterbarn.shtml
+
+2023-12-06 12:26:42,084 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/sidneybrickworks.shtml
+
+2023-12-06 12:27:03,363 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/tonegrainsilo.shtml
+
+2023-12-06 12:27:13,120 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'UKOW' 
+Url: http://www.mhs.mb.ca/docs/sites/otterburneelevator.shtml
+
+2023-12-06 12:27:13,245 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'W' 
+Url: http://www.mhs.mb.ca/docs/sites/newtonelevator.shtml
+
+2023-12-06 12:27:16,608 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'W' 
+Url: http://www.mhs.mb.ca/docs/sites/wellwoodelevator.shtml
+
+2023-12-06 12:27:20,442 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/uprightsilo.shtml
+
+2023-12-06 12:27:28,003 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/wardlebarn.shtml
+
+2023-12-06 12:27:39,093 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/wittickbarn.shtml
+
+2023-12-06 12:27:46,088 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/agriculturalcollegebarn.shtml
+
+2023-12-06 12:27:48,081 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/alexanderbarn.shtml
+
+2023-12-06 12:27:55,813 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/arbuthnothouse.shtml
+
+2023-12-06 12:27:56,053 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/tachehouse.shtml
+
+2023-12-06 12:27:57,308 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/armstrongbarn.shtml
+
+2023-12-06 12:28:40,471 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/adelmanbuilding.shtml
+
+2023-12-06 12:29:10,119 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/comtebarn.shtml
+
+2023-12-06 12:29:51,618 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/emersonquarantine.shtml
+
+2023-12-06 12:29:59,747 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/firehall12.shtml
+
+2023-12-06 12:30:04,540 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/forderbarn.shtml
+
+2023-12-06 12:30:07,036 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/foxbarn.shtml
+
+2023-12-06 12:30:39,641 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '--97.15986' 
+Url: http://www.mhs.mb.ca/docs/sites/hazeltonapartments.shtml
+
+2023-12-06 12:31:04,026 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/jacksonbarn.shtml
+
+2023-12-06 12:31:18,454 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/klippensteinbarn.shtml
+
+2023-12-06 12:31:19,395 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/knoxhousewarsaw.shtml
+
+2023-12-06 12:31:21,314 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'Darryl Toews' 
+Url: http://www.mhs.mb.ca/docs/sites/trinityunitedportage.shtml
+
+2023-12-06 12:31:26,231 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/langtryfoxfarm.shtml
+
+2023-12-06 12:31:35,037 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/loganbarn.shtml
+
+2023-12-06 12:31:43,120 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/maloneysilos.shtml
+
+2023-12-06 12:32:11,036 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: 'athan Kramer' 
+Url: http://www.mhs.mb.ca/docs/sites/mcleodschoolwinnipeg.shtml
+
+2023-12-06 12:32:33,200 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '' 
+Url: http://www.mhs.mb.ca/docs/sites/nickelhouse.shtml
+
+2023-12-06 12:32:35,165 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/norquaybuilding.shtml
+
+2023-12-06 12:33:03,275 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info: list index out of range 
+Url: http://www.mhs.mb.ca/docs/sites/publicgarage.shtml
+
+2023-12-06 12:33:09,799 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/rempeljanzfoxtower.shtml
+
+2023-12-06 12:33:40,613 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/sellersbarn.shtml
+
+2023-12-06 12:33:51,732 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/springvalleyschool.shtml
+
+2023-12-06 12:34:10,461 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Sources: 'NoneType' object has no attribute 'find_next_sibling' 
+Url: http://www.mhs.mb.ca/docs/sites/stjamesanglicanwinnipeg.shtml
+
+2023-12-06 12:34:25,943 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/stouensschool.shtml
+
+2023-12-06 12:34:30,845 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Location: could not convert string to float: '--100.39494' 
+Url: http://www.mhs.mb.ca/docs/sites/strathclairunited.shtml
+
+2023-12-06 12:34:39,912 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/taylorbarn.shtml
+
+2023-12-06 12:34:40,241 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Get Image Block: 'NoneType' object has no attribute 'tr' 
+Url: http://www.mhs.mb.ca/docs/sites/taylorhousemcmillan.shtml
+
+2023-12-06 12:35:23,722 - main.__main__ - ERROR - ManitobaHistoricalScrapper/fetch_site_info/Parse through Sources: 'NoneType' object has no attribute 'text' 
+Url: http://www.mhs.mb.ca/docs/sites/womenspavilion.shtml
+
+2023-12-06 12:35:59,466 - main - INFO - Insert Data into Database
